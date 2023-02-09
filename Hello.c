@@ -152,6 +152,129 @@ int main(){
 //    printf("%d \n",5*2/2*3);   // ('*') <-- ('/')
 //    printf("%d \n",5*(2/2)*3);  // '()' <--  '*'
 //    printf("%d \n",5+2/2*3);   // ('/') <-- ('*') <-- ('+')S
+
+//    int i=-3;
+//	int l=i%2;
+////	printf("%d",l);
+//	printf("%u \n",l);
+//
+//    int i =3;
+//    int l=i/-2;
+//    int k=i%-2;
+//    printf("%d %d \n",l,k);
+//
+//    int x=5.3%2;
+//    printf("%d",x);
+
+//    int a=10;
+//    double b=5.6;
+//    int c;
+//    c=a+b;
+//    printf("%d",c);
+
+//    int a=5;
+//    int c;
+//    c=a++;    /// Post operator 
+//    printf("%d \n",c);
+//    printf("%d \n",a);
+
+//    int a=5;
+//    int c;
+//    c=a++;
+//    printf("%d \n",c);
+//    printf("%d \n",a);
     
+//    int b=9;
+//    int d;
+//    d=b--;
+//    printf("%d \n",d);
+//    printf("%d \n",b);
+
+//    int x=3,y,z;
+//    y=x++;
+//    z=++x;
+//    printf("\n%d,%d,%d",x,y,z);
+
+//    int a=1,b=1,c;
+//    c=a++ +b;
+//    printf("%d,%d,%d",a,b,c);
+
+//    int d,a=1,b=2;
+//    d=a++ + ++b;
+//    printf("%d \n %d\n %d\n",d,a,b);
+
+//    int x=4,y,z;
+//    y=--x;
+//    z=x--;
+//    printf("%d%d%d",x,y,z);
+
+//    int a=10,b=20;
+////    int c=a<b;
+////    int c=a>b;
+////    int c=a<=b;
+////    int c=a<=b;
+////    int c=a==b;
+//    int c=a!=b;
+//    printf("%d",c);
+
+//    int a=10,b=5,c=5;
+//    int d;
+//    d=b+c==a;
+//    printf("%d",d);
+
+//    int a=10,b=0,c;
+//    c=a&&b;
+//    printf("%d",c);
+
+//    int a=10,b=0,c=2,d;
+//    d=a&&b||c-2;
+//    printf("%d",d);
+
+//    int x=1,y=0,z=5;
+//    int a=x&&y||z++;
+//    printf("%d",z);
+
+//                                             // IMPORTANT
+//    int x=1,y=0,z=5;
+//	int a=x&&y&&z++;
+//	printf("%d",z); 
+
+//    int a=5,b=6;
+//	a+=b;
+//	printf("%d %d",a,b); 
+
+//    int a=5,b=6;
+//	a-=b;
+//	printf("%d %d",a,b); 
+
+//    int a=5,b=6;
+//	a*=b;
+//	printf("%d %d",a,b);
+
+//    int a=5,b=6;
+//	a/=b;
+//	printf("%d %d",a,b); 
+
+//    int a=5,b=6;
+//	a%=b;
+//	printf("%d %d",a,b);  
+
+//    int a=5,b=6;
+//	a<<=b;
+//	printf("%d %d",a,b); 
+
+//    int a=5,b=6;
+//	a>>=b;
+//	printf("%d %d",a,b); 
+
+    int age;
+    printf("enter ur age: ");
+    scanf("%d",&age);
+//    if (age>18);
+//    printf("you are eligible to vote ");
+//	else;
+//    printf("you are not eligible to vote");
+    (age>18)?printf("you are eligible to vote ");
+    printf("you are not")
 	return 0;
 }
