@@ -267,14 +267,67 @@ int main(){
 //	a>>=b;
 //	printf("%d %d",a,b); 
 
-    int age;
-    printf("enter ur age: ");
-    scanf("%d",&age);
-//    if (age>18);
-//    printf("you are eligible to vote ");
-//	else;
-//    printf("you are not eligible to vote");
-    (age>18)?printf("you are eligible to vote ");
-    printf("you are not")
+
+//// Conditional operator
+//    int age;
+//    printf("enter ur age: ");
+//    scanf("%d",&age);
+//    (age>18)?printf("you are eligible to vote "):
+//    printf("you are not");
+////    if (age>18);
+////    printf("you are eligible to vote ");
+////	else;
+////    printf("you are not eligible to vote");
+
+//    int a=2,b=4;
+//    printf("a=%d,b=%d\n",a,b);
+//    printf("a&b=%d \n",a&b);
+//    printf("a|b=%d\n",a|b);
+//    printf("a^b=%d\n",a^b);
+//    printf("~a=%d\n",~a);
+//    printf("~b=%d\n",~b);
+//    printf("b<<1=%d\n",a<<b);
+//    printf("b>>1=%d\n",a>>b);
+
+//    int a,b;
+//    printf("%d",a&b);
+
+//    int a=8,b=3;
+//    printf("%d",a|b);
+
+//    int a=10;
+//    printf("%d",~a);
+
+//    printf("%d",4+8/2*3);
+//    printf("%d\n",3*(4%5)/2);
+//    printf("%d",3*((4%5)/2));
+
+//    int a=0,b=1,c=-1;
+//    float x=2.5,y=0.0;
+//    printf("%d",a&&b);
+//    printf("%d",b+c||!a);
+//    printf("%d",x*5&&5||(b/c));
+//    printf("%d",12.5&&5);
+//    printf("%d",(!x)||(!c)||(b=c));
+//    printf("%d",!(-1));
+
+//    double s =5%3&4+5*6;
+//    printf("%lf",s);
+    
+//    double d=3&&5&4%3;
+//    printf("%lf",d);
+////    printf("%d",d);  // doubt
+
+//    double d =5&3&&4||5|6;
+////    printf("%lf",d);
+    printf("%f \n",1.0||5.0);
+    printf("%d",1||5);
+     
+//    int x=(3,2,5);                            // IMPORTANT
+//    printf("%d",x);
+
+//    int b =4*6+3*4<3?4:3;
+//    printf("%d",b);
+    
 	return 0;
 }
