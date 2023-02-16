@@ -320,7 +320,7 @@ int main(){
 
 //    double d =5&3&&4||5|6;
 ////    printf("%lf",d);
-    printf("%f \n",1.0||5.0);
+    printf("%f \n",5.0||5.0);
     printf("%d",1||5);
      
 //    int x=(3,2,5);                            // IMPORTANT
@@ -328,6 +328,147 @@ int main(){
 
 //    int b =4*6+3*4<3?4:3;
 //    printf("%d",b);
-    
+//
+//    int x=5;
+//    if(x<1)
+//      printf("hello");
+//    if (x==5)
+//      printf("hi");
+//    else
+//      printf("no");
+      
+//    int x=5;
+//    if(x<=5)
+//      printf("hello");
+//    if (x==5)
+//      printf("hi");
+//    else
+//      printf("no");
+
+//    int x=0;
+//    if(x==0)
+//    printf("hi");
+//	else
+//    printf("how are u");
+//    printf("hello");
+
+//    int a;
+//    printf("enter the number: ");
+//    scanf("%d",&a);
+// 
+//    if (a<10)
+//    printf("no. is less than 10");
+//    else if (a<100)
+//    printf("no. is less than 100");
+
+//    float marks;
+//    scanf("%f",&marks);
+//    if (marks>90){
+//    	printf("Grade A");
+//	}
+//	else  if (marks>80){	
+//		printf("Grade B");
+//	}
+//	else if (marks>70){
+//		printf("Grade C");
+//	}
+//	else if (marks>60){
+//		printf("grade D");
+//	}
+//	else {
+//	printf("fail");
+//	}
+
+//    int i=10;
+//    if (i==10){
+//    	if (i<15)
+//    	printf("i is smaller than 15\n");
+//    	if (i<12)
+//    	printf("i is smaller than 12 too\n");
+//    	else 
+//    	printf("i is greater than 15");
+//	}
+
+//    int x=0;
+//    if (x==1)
+//      if (x>=0)
+//      printf("true \n");
+//      else
+//      printf("false\n");
+
+//    int x=0;
+//    if (x==0)
+//      if (x>=0)
+//      printf("true \n");
+//      else
+//      printf("false\n");
+
+//    int x=0;
+//	if (x==1)
+//	  if (x==0)
+//	  printf("imside if \n");
+//	  else
+//	  printf("inside else if \n");
+//	else 
+//	printf("inside else \n");   
+	
+//	int pt;
+//	printf("enter the no.of nodes: ");
+//	scanf("%d",&pt);
+//	switch (pt){
+//		case 0:
+//			printf("\n No geometry");
+//		break;
+//		case 1:
+//			printf("\n A point");
+//		break;
+//		case 2:
+//			printf("\n A line");
+//		break;
+//		case 3:
+//			printf("\n A triangle");
+//		break;
+//		case 4:
+//			printf("\n A rectangle");
+//		break;
+//		case 5:
+//			printf("\n A pentagon");
+//		break;
+//		default:
+//			printf("invalid input");
+//		break;
+//	}
+
+//	int pt;
+//	printf("enter the no.of nodes: ");
+//	scanf("%d",&pt);
+//	switch (pt){
+//		case 0:
+//			printf("\n No geometry");
+//		case 1:
+//			printf("\n A point");
+//		case 2:
+//			printf("\n A line");
+//		case 3:
+//			printf("\n A triangle");
+//		case 4:
+//			printf("\n A rectangle");
+//		case 5:
+//			printf("\n A pentagon");
+//		default:
+//			printf("\ninvalid input");
+//		break;
+//    }
+
+//    double ch;
+//    printf("enter a value between 1 to 2:");
+//    scanf("%d",&ch);
+//    switch(1){
+//    	case 1:
+//    		printf("1\n");
+//    	case 2:
+//    		printf("2");
+//    		break;
+//	}
 	return 0;
 }
