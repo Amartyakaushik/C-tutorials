@@ -320,8 +320,8 @@ int main(){
 
 //    double d =5&3&&4||5|6;
 ////    printf("%lf",d);
-    printf("%f \n",5.0||5.0);
-    printf("%d",1||5);
+//    printf("%f \n",5.0||5.0);
+//    printf("%d",1||5);
      
 //    int x=(3,2,5);                            // IMPORTANT
 //    printf("%d",x);
@@ -470,5 +470,89 @@ int main(){
 //    		printf("2");
 //    		break;
 //	}
+
+    // for loop
+//    int x;
+//    for (int x =0; x<5; x++){
+//    	printf("hello\n");
+//	}
+	
+//	while (x<5){
+//		printf("Hello\n");
+//		x++;
+//	}
+
+//    int i=0;
+//    while(i<3)
+//    i++;
+//    printf("In while loop\n %d",i);
+
+//    int i=0;
+//    while(++i)
+//    {
+//    	printf("H");
+//	}
+//	
+//	int i=0;
+//    while(i++)
+//    {
+//    	printf("H");
+//	}
+//	
+//	int n;
+//	for(n=10; n>0; n=n-1){
+//		printf("%d\n",n);
+//	}
+
+//  int n,i,sum=0;
+//  printf("enter the value");
+//  scanf("%d",&n);
+//  for (i=1;i<=n;i++)
+//  {
+//  	sum=sum+i;
+//  }
+//  printf("the sum=%d",sum);
+
+//    int n=45;
+//    printf("%d",45/10);
+
+//    int no,sum=0,n;
+//    printf("enter the no");
+//	scanf("%d",&no);
+//	while(no!=0)
+//	{
+//		n=no%10;
+//		sum=sum+n;
+//		no=no/10;
+//	  }  
+//	  printf("the sum of the digits is:%d",sum);
+
+    //                       palindromme  and magical number
+//    int i;
+//    for (i=1;i!=10;i+=2)
+//    printf("Hello");
+    
+//    int i;
+////    for(i=1;i<10;i++)
+//    for(i=1;i<10;i++); 
+//    printf("%d",i);
+
+//                                // Tables
+//    int i,j;
+//    for (j=1;j<10;j++)
+//	{
+// 	for(i=1;i<=10;i++){
+//    printf("%d*%d=%d\n\n",j,i,i*j);
+//	}	
+//	}
+
+    int i,j;
+    for (i=1;i<21;i++)
+	{
+	for(j=1;j<=10;j++){
+    printf("%d*%d=%d\n",i,j,i*j);
+	}	
+	printf("\n");
+	}
 	return 0;
 }
