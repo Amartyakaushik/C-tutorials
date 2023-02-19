@@ -546,13 +546,61 @@ int main(){
 //	}	
 //	}
 
-    int i,j;
-    for (i=1;i<21;i++)
-	{
-	for(j=1;j<=10;j++){
-    printf("%d*%d=%d\n",i,j,i*j);
-	}	
-	printf("\n");
-	}
+//    int i,j;
+//    for (i=1;i<21;i++)
+//	{
+//	for(j=1;j<=10;j++){
+//    printf("%d*%d=%d\n",i,j,i*j);
+//	}	
+//	printf("\n");
+//	}
+
+//                                         DOUBT
+//int main(){
+//	for (int a=0;a<=10;a++){
+//	printf("huhuh");
+//}
+
+//}
+
+//    int n=10;
+//    do{
+//    	printf("%d\n",n);
+//    	n=n-1;
+//	}while(n>0);
+
+//    do 
+//    printf("in while loop\n");
+//    while(0);
+//    printf("after the loop\n");
+
+//  int i=0;
+//  do{
+//  	i++;
+//  	printf("in while loop\n");
+//  }while(i<3);
+  
+//  int x=10;
+//  char y='a';
+//  x=x+y;
+//  float z=x+1.0;
+//  printf("x=%d z=%f\n",x,z);
+
+//    double x=1.2;
+//    int sum=(int)x+1;
+//    printf("sum=%d",sum);
+
+//    double x=1.2;
+//    int sum=(int)x+1;
+//    printf("sum=%f",sum);
+
+
+//    double x=1.224325;
+//    float y=3.34;
+//    int z=3;
+//    char c='A';
+////    printf("%f",x+y+z+c);
+//    printf("%lf",x+y+z+c);
+    
 	return 0;
 }
