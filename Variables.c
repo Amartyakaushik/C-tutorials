@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 int main(){
 	// Different types of Variables 
 //	int number=25;  // Integer type 
@@ -39,9 +40,48 @@ int main(){
 
     // const int a=5;
     // printf("%d",a);
-    int i=-3;
-	int l=i%2;
-	printf("%d",l);
+//    int i=-3;
+//	int l=i%2;
+//	printf("%d",l);
+
+//Arithmetics operators
+// (pow)
+//int a,b;
+//printf("enter a,b: ");
+//scanf("%d%d",&a,&b);
+//int c=pow(a,b);
+//printf("%d",c);
+
+//  (modulo)
+//printf("%d \n",11%4);   // (6)
+//printf("%d \n",-11%4);  // (-6)
+//printf("%d",11.0%4.0);  //modulo is not defined for float value...
 	
+	// type conversion
+//	printf("%d \n",2/3);  // (0)
+//	printf("%d \n",2/3);  // (0.000000)
+//	printf("%f \n",2/3);  // (0.666666)
+//	printf("%d \n",3.0/2);	// (0) output will be float value so...
+//	printf("%f \n",3.0/2);  // (1.500000)  // to find exact value...
+
+// to remove no. after decimal 
+//int a=(int)1.999999;
+//printf("%d",a);
+//printf("%d",5*(2/2)*3);  
+
+//int a;
+//printf("enter the no.: ");
+//scanf("%d",&a);
+////printf("%d",a%2==0);  // to check if it is even or not
+//printf("%d",a%2!=0);   
+
+//char a='A';
+//printf("%c",a);
+
+//int a,b,c;
+//printf("enter a,b,c: ");
+//scanf("%d%d%d",&a,&b,&c);
+//printf("%d",(a+b+c)/3);
+
 	return 0;
 }
