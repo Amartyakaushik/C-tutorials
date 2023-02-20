@@ -599,7 +599,7 @@ int main(){
 //    float y=3.34;
 //    int z=3;
 //    char c='A';
-////    printf("%f",x+y+z+c);
+// //    printf("%f",x+y+z+c);
 //    printf("%lf",x+y+z+c);
     
 	return 0;
