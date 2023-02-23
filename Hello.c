@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<math.h>
+#include<conio.h>
 
 int main(){	
 	// Different types of Variables 
@@ -516,16 +517,16 @@ int main(){
 //    int n=45;
 //    printf("%d",45/10);
 
-//    int no,sum=0,n;
-//    printf("enter the no");
-//	scanf("%d",&no);
-//	while(no!=0)
-//	{
-//		n=no%10;
-//		sum=sum+n;
-//		no=no/10;
-//	  }  
-//	  printf("the sum of the digits is:%d",sum);
+    int no,sum=0,n;
+    printf("enter the no");
+	scanf("%d",&no);
+	while(no!=0)
+	{
+		n=no%10;
+		sum=sum+n;
+		no=no/10;
+	  }  
+	  printf("the sum of the digits is:%d",sum);
 
     //                       palindromme  and magical number
 //    int i;
@@ -601,6 +602,72 @@ int main(){
 //    char c='A';
 // //    printf("%f",x+y+z+c);
 //    printf("%lf",x+y+z+c);
+
+  
+//    int x;
+//    printf("enter  a number: ");
+//    scanf("%d",&x);
+//    if (x%2==0)
+//    goto even;
+//    else
+//    goto odd;
+//    even:
+//    	printf("%d is even",x);
+//    	return;
+//    odd:
+//    	printf("%d is odd",x);
+
+//    int a=2334;
+//    printf("*%5d* *%-5d*",a,a);
     
+//    float b=1234.23454;
+//    printf("*%3.3f*",b);
+ 
+// char ch;
+// printf("enter a character: ");
+// scanf("%c",&ch);
+// putchar(ch); 
+
+//char ch='A';
+//ch=getchar();
+//putchar(ch);
+//return;
+
+//printf("Enter two alphabets ");
+////getchar();
+//getche();
+//getch();
+
+//char ch[30];
+//printf("Enter the string: ");
+//gets(ch);
+//printf("entered string is: %s",ch);
+
+//char s[100];
+//gets(s);
+//printf("hello world \n");
+//printf("%s",s);
+
+//char cc[23];
+//printf("enter the string: ");
+//gets(cc);
+//puts(cc);
+
+//int a,i,flag=1;
+//printf("no: ");
+//scanf("%d",&a);
+//for (i=2;i<a;i++){
+//	if (a%2==0){
+//		flag=0;
+//	}
+//	if (flag){
+//		printf("%d is a prime no.",a);
+//	}
+//	else {
+//	printf("asdff");
+//	}
+//}
+
+
 	return 0;
 }

@@ -82,7 +82,139 @@ int main(){
 //printf("enter a,b,c: ");
 //scanf("%d%d%d",&a,&b,&c);
 //printf("%d",(a+b+c)/3);
-printf("%d",a*b/c);
 
-	return 0;
+
+ //(if and else)
+//int age;
+//printf("enter ur age: ");
+//scanf("%d",&age);
+//if(age>18){
+//	printf("Adult \n");
+//	printf("can vote");
+//    }
+//else if(age>13 && age<=18){
+//	printf("Teenager");
+//    }
+//else {
+//	printf("not an adult");
+//    }
+
+//int marks;
+//scanf("%d",&marks);
+//if (marks>90){
+//	printf("Grade: A+");
+//}
+//else if(marks>80 && marks<90){
+//	printf("Grade: A");
+//}
+//else if(marks>70 && marks<80){
+//	printf("Grade: B+");
+//}
+//else if(marks>60 && marks<70){
+//	printf("Grade: B");
+//}
+//else{
+//	printf("Fail");
+//}
+	
+	// ternary operator
+//	int age;
+//	printf("enter the age: ");
+//	scanf("%d",&age);
+//	age >20 ? printf("valid for the process") : printf("Sorry! have a good day");
+
+
+//switch
+//    char ch;
+//    printf("enter the day :"); //'m'-mon,'t'-tues,'w'-wed...
+//    scanf("%s",&ch);
+//	switch(ch){
+//	case 'm':printf("monday");
+//	break;
+//	case 't':printf("tuesday");
+//	break;
+//	case 'w':printf("wednesday");
+//	break;
+//	case 'T':printf("thursday");
+//	break;
+//	case 'f':printf("friday");
+//	break;
+//	case 's':printf("saturday");
+//	break;
+//	case 'S':printf("sunday");
+//	break;
+//	default :printf("enter a valid day");
+//    }
+
+//nested
+//int i;
+//scanf("%d",&i);
+//if(i>=0){
+//	printf("it's a positive no. \n");
+//	if(i%2==0){
+//		printf("and even no.");
+//	}else{
+//		printf("and odd no.");
+//	}
+//}else{
+//	printf("it's not a positive no.");
+//}
+
+
+//   //ternory method
+//int marks;
+//scanf("%d",&marks);
+//marks>30?printf("you passed"):printf("you failed");
+
+////nested mehtod
+//if(marks<30){
+//	if (marks>=0){
+//	printf("fail");
+//	}else{
+//		printf("enter valid marks");
+//	}
+//}else if(marks>=30 && marks<=100){
+//	printf("pass");
+//}else{
+//	printf("ente a valid marks");-
+//}
+
+//char ch;
+//printf("enter the character: ");
+//scanf("%c",&ch);
+//if(ch>='A' && ch<='Z'){
+//	printf("it's an upper case letter");
+//}else if(ch>='a' && ch<='z'){
+//	printf("it's a lower case letter");
+//}else{
+//	printf("enter a valid english alphabets");
+//}
+
+
+//Armstrong no.
+//int i,arm=0,n,o;
+//printf("enter the number: ");
+//scanf("%d",&i);
+//o=i;
+//while(i!=0){
+//	n=i%10;
+//	arm=arm+(n*n*n);
+//	i=i/10;
+//}
+//if(o==arm){
+//printf("%d",arm);	
+//}else{
+//	printf("not an armstrong number");
+//}
+
+//Natural no.
+int n;
+printf("enter the no.");
+scanf("%d",&n);
+if(n>=1){
+	printf("it's a natural no.");
+}else{
+	printf("not a natural no.");
+}
+    return 0;
 }
