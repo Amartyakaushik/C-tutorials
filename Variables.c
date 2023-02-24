@@ -191,7 +191,7 @@ int main(){
 //}
 
 
-//Armstrong no.
+////Armstrong no.
 //int i,arm=0,n,o;
 //printf("enter the number: ");
 //scanf("%d",&i);
@@ -207,14 +207,16 @@ int main(){
 //	printf("not an armstrong number");
 //}
 
-//Natural no.
-int n;
-printf("enter the no.");
-scanf("%d",&n);
-if(n>=1){
-	printf("it's a natural no.");
-}else{
-	printf("not a natural no.");
-}
+////Natural no.
+//int n;
+//printf("enter the no.");1
+//scanf("%d",&n);
+//if(n>=1){
+//	printf("it's a natural no.");
+//}else{
+//	printf("not a natural no.");
+//}
+
+
     return 0;
 }
