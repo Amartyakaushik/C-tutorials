@@ -2,6 +2,10 @@
 #include<math.h>
 #include<conio.h>
 
+int sqr(int y)
+{
+	return y*y;
+}
 int main(){	
 	// Different types of Variables 
 	
@@ -517,16 +521,16 @@ int main(){
 //    int n=45;
 //    printf("%d",45/10);
 
-    int no,sum=0,n;
-    printf("enter the no");
-	scanf("%d",&no);
-	while(no!=0)
-	{
-		n=no%10;
-		sum=sum+n;
-		no=no/10;
-	  }  
-	  printf("the sum of the digits is:%d",sum);
+//    int no,sum=0,n;
+//    printf("enter the no");
+//	scanf("%d",&no);
+//	while(no!=0)
+//	{
+//		n=no%10;
+//		sum=sum+n;
+//		no=no/10;
+//	  }  
+//	  printf("the sum of the digits is:%d",sum);
 
     //                       palindromme  and magical number
 //    int i;
@@ -668,6 +672,54 @@ int main(){
 //	}
 //}
 
+
+//char operation;
+//float num1,num2,result;
+//do
+//{
+//	printf("enter the operation(+,-,%,/,* or 'q' to quit)");
+//    scanf("%c",&operation);
+//	switch(operation)
+//	{
+//	case'+':
+//	    printf("enter two numbers:");
+//		scanf("%f%f",&num1,&num2);
+//		result=num1+num2;
+//		printf("result is :%f",result);
+//		break;
+//	case'-':
+//		printf("enter two numbers:");
+//		scanf("%f%f",&num1,&num2);
+//		result=num1-num2;
+//		printf("result is :%f",result);
+//		break;
+//	case'*':
+//		printf("enter two numbers:");
+//		scanf("%f%f",&num1,&num2);
+//		result=(num1*num2);
+//		printf("result is :%f",result);
+//		break;
+//	case '/':
+//		printf("enter two numbers:");
+//		scanf("%f%f",&num1,&num2);
+//		result=num1/num2;
+//		printf("result is :%f",result);
+//		break;
+//	case's':
+//		printf("exiting the program...");
+//		break;
+//	default:
+//		printf("invalid operation\n");
+//		break;
+//    }
+//}while(operation!=0);
+
+
+int x=1;
+for(x=1;x<10;x++)
+{
+	printf("%d\n",sqr(x));
+}
 
 	return 0;
 }
