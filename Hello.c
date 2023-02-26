@@ -2,11 +2,18 @@
 #include<math.h>
 #include<conio.h>
 
-int sqr(int y)
-{
-	return y*y;
-}
-int main(){	
+//int sqr(int y)
+//{
+//	return y*y;
+//}
+//void show();
+//int swap(int x,int y);
+
+
+//int main(){	
+
+
+
 	// Different types of Variables 
 	
 //	int number=25;  // Integer type 
@@ -714,12 +721,118 @@ int main(){
 //    }
 //}while(operation!=0);
 
+//int sqr(int y)
+//{ return y*y }
+//int main(){...}
+//int x=1;
+//for(x=1;x<10;x++)
+//{
+//	printf("%d\n",sqr(x));
+//}
 
-int x=1;
-for(x=1;x<10;x++)
-{
-	printf("%d\n",sqr(x));
+
+//25 feb
+//double x=97.2;
+//char sum=(char)x+1;
+//printf("sum= %c",sum);
+
+
+//show();
+//printf("hello");
+//{
+//	void show(){
+//		printf("world");
+//	}
+//}
+
+//show();
+//printf("hello");
+////	return 0;
+////}
+////void show()
+////{
+////	printf("world");
+////    main();
+////}
+
+// //int swap(int x,int y);
+//  int main{
+//	int a=5;
+//	int b=6;
+//	swap(a,b);
+//	printf("a=%d and b=%d\n",a,b);
+//	return 0;
+//}
+//int swap(int x,int y)
+//{
+//	int temp=x;
+//	x=y;
+//	y=temp;
+//	printf("x=%d and y=%d\n",x,y);
+//}
+
+
+#include<stdio.h>
+//void sum(){
+//	int a,b;
+//	printf("enter the value:");
+//	scanf("%d %d",&a,&b);
+//	printf("%d",a+b);
+//	
+//	
+//	
+//}
+//void main(){
+//	sum();
+//}
+//write a user define number to factors is given number
+//void sum(){
+//	int a,b;
+//	printf("enter the value:");
+//	scanf("%d %d",&a,&b);
+//	printf("%d",a+b);
+//	
+//	
+//	
+//}
+//void main(){
+//	sum();
+//}
+
+
+
+#include <stdio.h>
+int main() {
+	int a,i;
+	printf("enter a num:");
+	scanf("%d",&a);
+	printf("even num of %d is:",i);
+	for (i=0; i<=a; ++i){
+		if (a/2==0){
+			printf("%d",i);
+		}
+	}
+
+//    int num, i;
+//    printf("Enter a number: ");
+//    scanf("%d", &num);
+//    printf("Factors of %d is : ", num);
+//    for (i = 1; i <= num; ++i) {     //after is incriment
+//        if (num % i == 0) {
+//            printf("%d ", i);
+//        }
+
+//    }
+
+
+
+    return 0;
 }
 
-	return 0;
-}
+
+
+
+//	return 0;
+//}
+
+
