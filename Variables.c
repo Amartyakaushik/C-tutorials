@@ -202,7 +202,7 @@ int main(){
 //	i=i/10;
 //}
 //if(o==arm){
-//printf("%d",arm);	
+//printf("yes %d is a armstrong no.",arm);	
 //}else{
 //	printf("not an armstrong number");
 //}
@@ -216,6 +216,21 @@ int main(){
 //}else{
 //	printf("not a natural no.");
 //}
+
+//1st march
+//char ch;
+//printf("enter a character: ");
+//scanf("%c",&ch);
+//if (ch>='A' && ch<='Z'){
+//	printf("upper case\n");
+//}
+//else if(ch>='a' && ch<='z'){
+//	printf("lower case\n");
+//}
+//else{
+//	printf("invalid character");
+//}
+
 
 
     return 0;
