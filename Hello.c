@@ -1,6 +1,25 @@
 #include<stdio.h>
 #include<math.h>
 #include<conio.h>
+//823
+//int add(int x,int y
+//	printf("%d",x+y);
+//}
+//830
+//int swap(int *a,int* b);
+//848
+//void fn1(int a){
+//	printf("%d",a);
+//	return a*a;
+//}
+//849
+//int show();
+
+//867
+//int fact(int x);
+
+//879
+int fibo(int x);
 
 //int sqr(int y)
 //{
@@ -9,11 +28,7 @@
 //void show();
 //int swap(int x,int y);
 
-
-//int main(){	
-
-
-
+int main(){
 	// Different types of Variables 
 	
 //	int number=25;  // Integer type 
@@ -744,7 +759,6 @@
 //		printf("world");
 //	}
 //}
-
 //show();
 //printf("hello");
 ////	return 0;
@@ -755,11 +769,11 @@
 ////    main();
 ////}
 
-// //int swap(int x,int y);
+// //int swap(int x,int y);  // formal arguments
 //  int main{
 //	int a=5;
 //	int b=6;
-//	swap(a,b);
+//	swap(a,b); //actual arguments
 //	printf("a=%d and b=%d\n",a,b);
 //	return 0;
 //}
@@ -772,7 +786,7 @@
 //}
 
 
-#include<stdio.h>
+//#include<stdio.h>
 //void sum(){
 //	int a,b;
 //	printf("enter the value:");
@@ -801,23 +815,176 @@
 
 
 
-#include <stdio.h>
-int main() {
-	int a,i;
-	printf("enter a num:");
-	scanf("%d",&a);
-	printf("even num of %d is:",i);
-	for (i=0; i<=a; ++i){
-		if (a/2==0){
-			printf("%d",i);
-		}
-	}
+//#include <stdio.h>
+//int main() {
+//	int a,i;
+//	printf("enter a num:");
+//	scanf("%d",&a);
+//	printf("even num of %d is:",i);
+//	for (i=0; i<=a; ++i){
+//		if (a/2==0){
+//			printf("%d",i);
+//		}
+//	}
+//
+//    return 0;
+//}
 
+//2nd march
+//int a=23,b=234;
+//add(a,b);
+
+//int a=5;
+//int *b;
+//b=&a;
+//printf("%d\n%d\n%d\n%d\n%d",a,&a,b,&b,*b);
+
+//pointer are the variables which will hold the address of the variable
+//int x=5,y=7;
+//printf("%d %d\n",x,y);
+//swap(&x,&y);//actual arguments
+//printf("%d %d\n",x,y);
+//    return0;
+//}
+//int swap(int *a,int *b){//formal argument
+//	int temp=*a;
+//	*a=*b;
+//	*b=temp;
+//	printf("%d %d\n",*a,*b);
+//}
+
+//int a=5;
+//fn1(a);
+//printf("%d",a);
+//void main(){
+//
+//int a;
+//a=show();
+//printf("%d",a);
+//
+//	return 0;
+//}
+//int show (){
+//	return 15.5;
+//	return 35;
+//}
+
+//int n,res;
+//printf("enter the value of n: ");
+//scanf("%d",&n);
+//res=fact(n);
+//printf("%d",res);
+//    return 0;
+//}
+//int fact(int x){
+//	if (x==0)
+//	return 1;
+//	else 
+//	return (x)*fact(x-1);
+//}
+//    return 0;
+//}
+
+//int n,res;
+//printf("enter the number of terms for which  ");
+//scanf("%d",&n);
+//res=fibo(n);
+//printf("%d",res);
+//    retrun 0;
+//}
+//int fibo(int x)
+//{
+//	if (x==0||x==1)
+//	return x;
+//	else {
+//		printf()
+//	}
+//}
+
+
+// FABOMICCI SERIES
+//int n,result,i;
+//printf("enter number");
+//scanf("%d",&n);
+//for(i=0;i<n;i++)
+//{
+//	result=fibo(i);
+//	printf("%d",result);
+//}
+//    return 0;
+//}
+//int fibo(int x)
+//{
+//	if(x==0||x==1)
+//	    return x;
+//	else
+//	    return fibo(x-1)+fibo(x-2);
+//}
+
+
+// PRACTICE
+//int x=-23,y=25,z=5.3;
+////printf("%d",x/2);
+////printf("%d",x%2);
+////printf("%d %d",y/-2,y%-2);
+//int f=5.3 % 2;
+//printf("%d",f);
+
+//int x=20;
+//double y=5.6;
+//int c;
+//c=x+y;
+//printf("%d",c);
+
+//int x=1,y=1,z;
+//z=x++ + y;
+//printf("%d %d %d",x,y,z);
+
+//int z,a=1,b=2;
+//z=a++ + ++b;
+//printf("%d %d %d",z,a,b);
+
+//int x=4,y,z;
+//y=--x;
+//z=x--;
+//printf("%d %d %d",x,y,z);
+
+//int x=10,y=5,z=5,a;
+////a=y+z==x;
+////a=x&&y;
+//printf("%d",a);
+
+//int a=10,b=0,c=2,d;
+//d= a&&b || c-2;
+//printf("%d",d);
+
+//int a=3;
+//int b=a<<2;
+//int c=b>>2;
+//printf("%d",b);
+
+//int a,b;
+//a=6;
+//b=4;
+//printf("%d %d",a^b,a|b);
+
+//DOUBT
+int a=10;
+printf("%d",a=~a);
 
 
     return 0;
 }
-//	return 0;
-//}
 
+
+//void f1(int a,int b)
+//{
+//	int c;
+//	c=a; a=b; b=c;
+//}
+//void f2(int *a,int *b)
+//{
+//	int c;
+//	c=
+//}
 
