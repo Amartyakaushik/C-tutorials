@@ -922,6 +922,7 @@ int main(){
 //}
 
 
+
 // PRACTICE
 //int x=-23,y=25,z=5.3;
 ////printf("%d",x/2);
@@ -969,9 +970,84 @@ int main(){
 //printf("%d %d",a^b,a|b);
 
 //DOUBT
-int a=10;
-printf("%d",a=~a);
+//int a=10;
+//printf("%d",a=~a);
 
+//double b=5%3&4+5*6;
+//printf("%lf",b);
+
+//double b=3&&5&4%3;
+//printf("%lf",b);
+
+//printf("%f",3&&5);
+
+//double b=5&3&&4||5|6;
+//printf("%lf",b);
+
+//int b=5+7*4-9*(3,2);
+//printf("%d",b);
+
+//int b=4*6+3*4<3?4:3;
+//printf("%d",b);
+
+//int x=5;
+//if(x<1)
+//printf("hello");
+//if(x==5)
+//printf("hii");
+//else
+//printf("no");
+
+//int x=0;
+//if(x==0)
+//printf("hii");
+//else 
+//printf("how are uh");
+//printf("hello");
+
+//int x=1;
+//if(x>0)
+//printf("inside if \n");
+//else if(x>0)
+//printf("inside else if \n"); 
+
+//int x=0;
+//if(x==1)
+//if(x==0)
+//printf("inside if \n");
+//else
+//printf("inside else if \n");
+//else
+//printf("inside else \n");
+
+//int ch;
+//printf("enter a value between 1 to 2:");
+//scanf("%d",&ch);
+//switch(ch)
+//{
+//	case 1:
+//		printf("1");
+//		break;
+//	case 2:
+//		printf("2");
+//		break;
+//	default:
+//		printf("3");
+//		break;
+//}
+
+int ch;
+printf("enter a value between 1 to 2");
+scanf("%d",&ch);
+switch(ch)
+{
+	case 1:
+	printf("1");
+	printf("hi");
+	break;
+	default:
+		printf("2\n");
+}
 
     return 0;
 }
