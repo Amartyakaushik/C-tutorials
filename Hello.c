@@ -1036,18 +1036,54 @@ int main(){
 //		break;
 //}
 
-int ch;
-printf("enter a value between 1 to 2");
-scanf("%d",&ch);
-switch(ch)
-{
-	case 1:
-	printf("1");
-	printf("hi");
-	break;
-	default:
-		printf("2\n");
-}
+//int ch;
+//printf("enter a value between 1 to 2");
+//scanf("%d",&ch);
+//switch(ch)
+//{
+//	case 1:
+//	printf("1");
+//	printf("hi");
+//	break;
+//	default:
+//		printf("2\n");
+//}
+
+
+//int a=-1,b=4,c=1,d,e;
+//d=++a && ++b||++c;
+//printf("%d %d %d %d",a,b,c,d);
+//e=b++;
+//printf("%d",b);
+
+//int i=0;
+//while(++i)
+//{
+//	printf("in the loop \n");
+//}
+
+
+//int i;
+//for (i=0;i<5;i++){
+//	int i=10;
+//	printf("%d",i);
+//	i++;
+////}
+//printf("%d",~6);
+//
+//int a=500,b=100,c;
+//printf("%d",!a);
+//if(!a>=400)
+//b=300;
+//c=200;
+//printf("b= %d c=%d",b,c);
+
+//int a=1,b=1,d=1;
+//printf("%d %d %d",++a + a++ + ++a,a++ + ++b,++d + ++d + ++a);
+
+//int a=23;
+//int b=-2;
+//printf("%d",a%b);
 
     return 0;
 }
