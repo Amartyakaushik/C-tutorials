@@ -1085,8 +1085,23 @@ int main(){
 //int b=-2;
 //printf("%d",a%b);
 
+
+int n,res;
+printf("enter the value of n: ");
+scanf("%d",&n);
+res=fact(n);
+printf("%d",res);
     return 0;
 }
+int fact(int x){
+	if (x==0)
+	return 1;
+	else 
+	return (x)*fact(x-1);
+}
+//
+//    return 0;
+//}
 
 
 //void f1(int a,int b)
