@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<math.h>
+//int fact(int x);
 int main(){
 	// Different types of Variables 
 //	int number=25;  // Integer type 
@@ -231,7 +232,28 @@ int main(){
 //	printf("invalid character");
 //}
 
+//int a=5;
+//fn1(a);
+//printf("%d",a);
 
+//int a,d;
+//printf("enter the value of a: ");
+//scanf("%d",&a);
+//d=fact(a);
+//printf("%d",d);
+//    return 0;
+//}
+//int fact(int x){
+//	int y;
+//	y=x*fact(x-1);
+//	return y;
+//}
+//4TH MARCH
+int i;
+for(i=0;i<=10;i++)
+{
+	printf("%d",i);
+}
 
     return 0;
 }
