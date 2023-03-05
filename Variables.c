@@ -248,12 +248,14 @@ int main(){
 //	y=x*fact(x-1);
 //	return y;
 //}
-//4TH MARCH
-int i;
-for(i=0;i<=10;i++)
-{
-	printf("%d",i);
-}
+// //4TH MARCH
+//int i;
+//for(i=0;i<=10;i++)
+//{
+//	printf("%d\n",i);
+//}
+int a=1,b=1,d=1;
+printf("%d, %d, %d",++a + ++a +a++,a++ + ++b,++d + d++ + a++);
 
     return 0;
 }
