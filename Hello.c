@@ -19,7 +19,7 @@
 //int fact(int x);
 
 //879
-int fibo(int x);
+//int fibo(int x);
 
 //int sqr(int y)
 //{
@@ -1086,22 +1086,53 @@ int main(){
 //printf("%d",a%b);
 
 
-int n,res;
-printf("enter the value of n: ");
-scanf("%d",&n);
-res=fact(n);
-printf("%d",res);
-    return 0;
-}
-int fact(int x){
-	if (x==0)
-	return 1;
-	else 
-	return (x)*fact(x-1);
-}
-//
+//int n,res;
+//printf("enter the value of n: ");
+//scanf("%d",&n);
+//res=fact(n);
+//printf("%d",res);
 //    return 0;
 //}
+//int fact(int x){
+//	if (x==0)
+//	return 1;
+//	else 
+//	return (x)*fact(x-1);
+//}
+
+
+//3rd MARCH
+//    float x = 2.56;
+//    float y = 3.14;
+//    float a = pow(x, y);
+//    float b = fmod(x, y);
+//    float c = logl(x);
+//    float d = log10(y);
+//    float e = exp(x);
+//    
+//    printf("%f", a);
+//    printf("%f", b);
+//    printf("%f", c);
+//    printf("%f", d);
+//    printf("%f", e);
+
+//    double n,output;
+//    printf("Enter a number\n");
+//    scanf("%lf", &n);
+//    output = sqrt(n);
+//    printf("Square root of %.2lf = %f", n,output);
+
+// int n=4;
+// if (n>0)
+// goto a;
+// a:
+// 	printf("%d",n);
+// 	n=n-1;
+
+
+    return 0;
+}
+
 
 
 //void f1(int a,int b)
