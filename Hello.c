@@ -28,6 +28,39 @@
 //void show();
 //int swap(int x,int y);
 
+
+////1145
+//void staticfun(){
+//	static int i;
+//	{
+//		static int i=1;
+//		printf("%d\n",i);
+//		i++;
+//	}
+//	printf("%d\n",i);
+//	i++;
+//}
+
+//1149
+static int gint=1;
+static void staticfun(){
+	static int i;
+	printf("%d",i);
+	i++;
+	printf("%d",gint);
+	gint++;
+}
+
+//1195
+int f(int n)
+{
+	static int i=1;
+	if (n>=5)
+	return n;
+	n=n+i;
+	printf("%d",n);
+}
+
 int main(){
 	// Different types of Variables 
 	
@@ -1079,7 +1112,7 @@ int main(){
 //printf("b= %d c=%d",b,c);
 
 //int a=1,b=1,d=1;
-//printf("%d %d %d",++a + a++ + ++a,a++ + ++b,++d + ++d + ++a);
+//printf("%d %d %d",++a + ++a + a++,a++ + ++b,++d + d++ + a++);
 
 //int a=23;
 //int b=-2;
@@ -1130,6 +1163,47 @@ int main(){
 // 	n=n-1;
 
 
+////9th MARCH
+
+//staticfun();
+//	staticfun();
+
+//gint++;
+//staticfun();
+//gint++;
+//staticfun();
+
+
+//int i=0,j=0;
+//while(i<5,i<10)
+//{
+//	i++;
+//	j++;
+//}
+//printf("%d %d\n",i,j);
+
+//int i =0;
+//for (i++;i==1;i=2)
+//printf("in for loop\n");
+//printf("after loop \n");
+
+//static int i=5;
+//if(--i){
+//	main();
+//	printf("%d \n",i);
+//}
+
+//int x=10;
+//static int y=x;  // ERROR (STATIC ELEMENT CANNOT BE EQUATED WITH NON STATIC ELEMENT)v
+//if (x==y)
+//printf("equal");
+//else if(x>y)
+//printf("greater");
+//else
+//printf("less");
+
+int k=f(1);
+printf("%d",k);
     return 0;
 }
 
