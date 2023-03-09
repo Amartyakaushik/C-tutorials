@@ -254,8 +254,9 @@ int main(){
 //{
 //	printf("%d\n",i);
 //}
-int a=1,b=1,d=1;
-printf("%d, %d, %d",++a + ++a +a++,a++ + ++b,++d + d++ + a++);
+
+//int a=1,b=1,d=1;
+//printf("%d, %d, %d",++a + ++a +a++,a++ + ++b,++d + d++ + a++);
 
     return 0;
 }
