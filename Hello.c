@@ -41,25 +41,25 @@
 //	i++;
 //}
 
-//1149
-static int gint=1;
-static void staticfun(){
-	static int i;
-	printf("%d",i);
-	i++;
-	printf("%d",gint);
-	gint++;
-}
+////1149
+//static int gint=1;
+//static void staticfun(){
+//	static int i;
+//	printf("%d",i);
+//	i++;
+//	printf("%d",gint);
+//	gint++;
+//}
 
-//1195
-int f(int n)
-{
-	static int i=1;
-	if (n>=5)
-	return n;
-	n=n+i;
-	printf("%d",n);
-}
+////1195
+//int f(int n)
+//{
+//	static int i=1;
+//	if (n>=5)
+//	return n;
+//	n=n+i;
+//	printf("%d",n);
+//}
 
 int main(){
 	// Different types of Variables 
@@ -1202,8 +1202,69 @@ int main(){
 //else
 //printf("less");
 
-int k=f(1);
-printf("%d",k);
+//int k=f(1);
+//printf("%d",k);
+
+//int i;
+//printf("enter the no.");
+//scanf("%d",&i);
+//if (i%4==0){
+//	printf("%d is divisible by 4",i);
+//} else {
+//printf("%d is not divisible by 4");
+//}
+
+//int rows,i,j,space,num;
+//printf("enter the no. of rows: ");
+//scanf("%d",&rows);
+//for(i=0;i<=rows;i++)
+//{
+//	num=1;
+//	space=rows-i;
+//	for(j=1;j<=space;j++){
+//		printf(" ");
+//	}
+//	for (j=1;j<=i;j++){
+//		printf("%d",num);
+//		num++;
+//	}
+//	num-=2;
+//	for (j=1;j<i;j++){
+//		printf("%d",num);
+//		num--;
+//	}
+//	printf("\n");
+//}
+
+//if(!printf("hello"))
+//printf("hello");
+//else 
+//printf("world");
+
+//printf("%d",printf("hello"));
+//int a=printf("Hello")
+
+//static int i=5;
+//if(--i){
+//	main();
+//	printf("%d",i);
+//}
+
+//Find real root of the quadratic equation
+int i,n,a,b,c,root1,root2,discriminant;
+printf("enter the coefficient of the x^2 in the quadrtic equation: ");
+scanf("%d",&a);
+printf("enter the coefficient of the x in the quadrtic equation: ");
+scanf("%d",&b);
+printf("enter the linear coefficient of the quadrtic equation: ");
+scanf("%d",&c);
+printf("The equation formed as : %dx^2 + %dx + %d",a,b,c);
+discriminant=(pow(b,2) - 4*a*c);
+root1=(-b+sqrt(discriminant))/2;
+root2=(-b-sqrt(discriminant))/2;
+printf("\n the root1 is %d",root1);
+printf("\n the root2 is %d",root2);
+
     return 0;
 }
 
