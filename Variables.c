@@ -1,6 +1,28 @@
 #include<stdio.h>
 #include<math.h>
 //int fact(int x);
+
+//481
+int isprime(int n){
+	if(n<=1){
+		return 0;
+	}
+	for (int i=2;i*i<=n;i++){
+		if(n%i==0){
+			return 0;
+		}
+	}
+	return 1;
+}
+int ispallindrome(int n){
+	int rev=0,temp=n;
+	while(temp>0){
+		rev=rev*10 + temp%10;
+		temp/=10;
+	}
+	return n==rev;
+}
+
 int main(){
 	// Different types of Variables 
 //	int number=25;  // Integer type 
@@ -447,14 +469,25 @@ int main(){
 //	n=n/10;
 //}
 //    printf("%d",sum);
+
    
-   
-int i,j,r,k,count=0;
-scanf("%d%d%d",&i,&r,&k);
-for(j=i;j<=r;j++){
-	if(j%k==0){
-	count+=1;
-}
-}printf("%d",count); 
+//int i,j,r,k,count=0;
+//scanf("%d%d%d",&i,&r,&k);
+//for(j=i;j<=r;j++){
+//	if(j%k==0){
+//	count+=1;
+//}
+//}printf("%d",count); 
+
+//PRIME PALLINDROME 
+    int n;
+    scanf("%d", &n);
+
+    if (isPrime(n) && isPalindrome(n)) {
+        printf("YES");
+    }  else {
+        printf("NO");
+    }
+
     return 0;
 }
