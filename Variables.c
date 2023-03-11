@@ -258,5 +258,166 @@ int main(){
 //int a=1,b=1,d=1;
 //printf("%d, %d, %d",++a + ++a +a++,a++ + ++b,++d + d++ + a++);
 
+
+//PRINT NO UPTO "N"...
+//int n,i,j;
+//printf("enter a no.: ");
+//scanf("%d",&n);
+//i=0;
+//while(i<=n){
+//	printf("%d \n",i);
+//	i++;
+//}
+//
+//for(j=0;j<=n;j++){
+//	printf("%d \t",j);
+//}
+//
+//do{
+//	printf("%d \t",j);
+//	j++;
+//}while(j<=n);
+
+//PRINT SUM OF FIRST N NATURAL NO.S...
+//AND PRINT THE NO. IN REVERSE COUNT...
+//int n,j,q,res=0,rev=0;
+//printf("enter the value of n: ");
+//scanf("%d",&n);
+//for(j=n;j>=1;j--)
+//{
+//	res=res+j;
+//	printf("%d\n",j);
+//}
+//printf("The sum is: %d",res);
+
+
+//PRINT THE NO. IN IT'S REVERSE...
+//if(n<100){
+//	rev=(n%10)*10+(n/10);
+//	printf("%d",rev);
+//}  // NOT COMPLETED
+//else if(n<1000){
+//	for(n%10==0){
+//		n=n%10;
+//		q=n*100;
+//		r=
+//	}
+//}
+
+//rev=(n%10)*10+(n/10);
+//printf("%d",rev);
+
+//PRINT THE TABLE OF A NUMBER INPUT "N"...
+//int n,table,i;
+//printf("Enter the no.: ");
+//scanf("%d",&n);
+//for(i=1;i<=10;i++){
+//	table=i*n;
+//	printf(" %d * %d= %d \n",n,i,table);
+//}
+
+//BREAK STATEMENT
+//TAKE NUMBER FROM USER UNTIL USER ENTERS AN ODD NO. ...
+//int n;
+//do{
+//printf("enter the no.: ");
+//scanf("%d",&n);
+//if(n%2!=0){
+//	printf("%d is an odd no.\n",n);
+//	break;
+//}
+//	printf("%d is an even no.\n",n);
+//}while(n%2==0);
+//printf("Thankuu");
+
+//TAKE NO. FROM USER UNTIL USER ENTERS NO. MULTIPLE OF 7...
+//int n;
+//do{
+//	printf("enter the no. : ");
+//	scanf("%d",&n);
+////	printf("%d",n);
+//	if(n%7==0){
+//		printf("%d is divisble by 7\t",n);
+//		break;
+//	}
+//}while(1);
+//printf("Thankuu...");
+
+//SKIP STATEMENT
+//PRINT ALL NO.s BUT SKIP NO. DIVISIBLE BY 3...
+//int n,i;
+//printf("Enter the value of n: ");
+//scanf("%d",&n);
+//for(i=0;i<=n;i++){
+//	if(i%3==0){
+//		continue;
+//	}
+//	printf("%d\n",i);
+//}
+
+//PRINT ODD NO.s ONLY...
+//int n,i;
+//printf("enter the no.: ");
+//scanf("%d",&n);
+//for(i=5;i<=n;i++){
+//	if(i%2==0){
+//		continue;
+//	}
+//	printf("%d\n",i);
+//}
+
+//PRINT THE FACTORIAL OF NO.
+//int n,fact=1,i;
+//printf("enter the value of n: ");
+//scanf("%d",&n);
+//for(i=1;i<=n;i++){
+//	fact=fact*i;
+//}
+//printf("The factorial of %d is: %d ",n,fact);
+
+
+//PRINT REVERSE OF THE TABLE OF N...
+//int n,rev,i;
+//printf("enter the value of n: ");
+//scanf("%d",&n);
+//for(i=10;i>=1;i--){
+//	rev=i*n;
+//	printf("%d * %d = %d\n",i,n,rev);
+//}
+
+
+//CALCULATE THE SUM OF ALL NUMBERS BETWEEN 5 AND 50...
+//int i,sum=0;
+//for(i=5;i<=50;i++){
+//	sum=sum+i;
+//}
+//printf("%d\n",sum);
+
+
+//PATTERN PRINTING
+int i,j,rows,space;
+char num;
+printf("enter the value of rows: ");
+scanf("%d",&rows);
+for(i=0;i<=rows;i++){
+	num="*";
+	space=rows-i;
+	for(j=1;j<=space;j++){
+		printf(" ");
+	}
+	for(j=1;j<=i;j++){
+		printf("%d",num);
+		num++;
+	}
+	num=num-2;
+	for(j=1;j<i;j++){
+		printf("%d",num);
+		num--;
+	}printf("\n");
+}
+
+
+
+
     return 0;
 }
