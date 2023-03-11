@@ -1250,20 +1250,29 @@ int main(){
 //	printf("%d",i);
 //}
 
-//Find real root of the quadratic equation
-int i,n,a,b,c,root1,root2,discriminant;
-printf("enter the coefficient of the x^2 in the quadrtic equation: ");
-scanf("%d",&a);
-printf("enter the coefficient of the x in the quadrtic equation: ");
-scanf("%d",&b);
-printf("enter the linear coefficient of the quadrtic equation: ");
-scanf("%d",&c);
-printf("The equation formed as : %dx^2 + %dx + %d",a,b,c);
-discriminant=(pow(b,2) - 4*a*c);
-root1=(-b+sqrt(discriminant))/2;
-root2=(-b-sqrt(discriminant))/2;
-printf("\n the root1 is %d",root1);
-printf("\n the root2 is %d",root2);
+////Find real root of the quadratic equation
+//int i,n,a,b,c,root1,root2,discriminant;
+//printf("enter the coefficient of the x^2 in the quadrtic equation: ");
+//scanf("%d",&a);
+//printf("enter the coefficient of the x in the quadrtic equation: ");
+//scanf("%d",&b);
+//printf("enter the linear coefficient of the quadrtic equation: ");
+//scanf("%d",&c);
+//printf("The equation formed as : %dx^2 + %dx + %d",a,b,c);
+//discriminant=(pow(b,2) - 4*a*c);
+//root1=(-b+sqrt(discriminant))/2;
+//root2=(-b-sqrt(discriminant))/2;
+//printf("\n the root1 is %d",root1);
+//printf("\n the root2 is %d",root2);
+
+int a=1;
+printf("%d %d %d %d %d \n",a++,a++,a++,a++,a++);
+a=1;
+printf("%d %d %d %d %d \n",a++,a++,a++,++a,a++);
+a=1;
+printf("%d %d %d %d %d \n",a++,a++,++a,++a,a++);
+a=1;
+printf("%d %d %d %d %d \n",a++,++a,++a,++a,a++);
 
     return 0;
 }
