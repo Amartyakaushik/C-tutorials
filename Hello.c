@@ -1214,6 +1214,9 @@ int main(){
 //printf("%d is not divisible by 4");
 //}
 
+
+////10TH MARCH
+////PATTERN PRINTING
 //int rows,i,j,space,num;
 //printf("enter the no. of rows: ");
 //scanf("%d",&rows);
@@ -1274,10 +1277,13 @@ printf("%d %d %d %d %d \n",a++,a++,++a,++a,a++);
 a=1;
 printf("%d %d %d %d %d \n",a++,++a,++a,++a,a++);
 
+//int d;
+//d=pow(3,2);
+//printf("%d",d);
+
+
     return 0;
 }
-
-
 
 //void f1(int a,int b)
 //{
