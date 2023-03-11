@@ -393,31 +393,68 @@ int main(){
 //}
 //printf("%d\n",sum);
 
-
 //PATTERN PRINTING
-int i,j,rows,space;
-char num;
-printf("enter the value of rows: ");
-scanf("%d",&rows);
-for(i=0;i<=rows;i++){
-	num="*";
-	space=rows-i;
-	for(j=1;j<=space;j++){
-		printf(" ");
-	}
-	for(j=1;j<=i;j++){
-		printf("%d",num);
-		num++;
-	}
-	num=num-2;
-	for(j=1;j<i;j++){
-		printf("%d",num);
-		num--;
-	}printf("\n");
+//int i,j,rows,space,num;
+//printf("enter the value of rows: ");
+//scanf("%d",&rows);
+//for(i=0;i<=rows;i++){
+//	num=1;
+//	space=rows-i;
+//	for(j=1;j<=space;j++){
+//		printf(" ");
+//	}
+//	for(j=1;j<=i;j++){
+//		printf("%d",num);
+//		num++;
+//	}
+//	num=num-2;
+//	for(j=1;j<i;j++){
+//		printf("%d",num);
+//		num--;
+//	}printf("\n");
+//}
+
+
+////WAP TO CHECK IF A NO. IS PRIME OR NOT
+//int i,n;
+//printf("enter a no: ");
+//scanf("%d",&n);
+//if (n==1){
+//	printf("%d is a prime no.\n",n);
+//}
+//else if(n%2!=0 || n%3!=0){
+//	printf("%d is a prime no.\n",n);
+//}
+//else {
+//	printf("%d is not a prime no.\n",n);
+//}
+//printf("Thankuu...");
+
+
+//DOUBT PATTERN 
+//int i;
+//char c='*';
+//for(i=0;i<=5;i++){
+//	printf("%d\n",c*5);
+//}
+
+
+////Complete the code to calculate the sum of the five digits on n.
+//int n,sum=0;
+//scanf("%d", &n);
+//while(n){
+//	sum=sum+n%10;
+//	n=n/10;
+//}
+//    printf("%d",sum);
+   
+   
+int i,j,r,k,count=0;
+scanf("%d%d%d",&i,&r,&k);
+for(j=i;j<=r;j++){
+	if(j%k==0){
+	count+=1;
 }
-
-
-
-
+}printf("%d",count); 
     return 0;
 }
