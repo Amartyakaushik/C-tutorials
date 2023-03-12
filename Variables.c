@@ -3,24 +3,53 @@
 //int fact(int x);
 
 //481
-int isprime(int n){
-	if(n<=1){
-		return 0;
-	}
-	for (int i=2;i*i<=n;i++){
-		if(n%i==0){
-			return 0;
-		}
-	}
-	return 1;
-}
-int ispallindrome(int n){
-	int rev=0,temp=n;
-	while(temp>0){
-		rev=rev*10 + temp%10;
-		temp/=10;
-	}
-	return n==rev;
+//int isprime(int n){
+//	if(n<=1){
+//		return 0;
+//	}
+//	for (int i=2;i*i<=n;i++){
+//		if(n%i==0){
+//			return 0;
+//		}
+//	}
+//	return 1;
+//}
+//int ispallindrome(int n){
+//	int rev=0,temp=n;
+//	while(temp>0){
+//		rev=rev*10 + temp%10;
+//		temp/=10;
+//	}
+//	return n==rev;
+//}
+
+////515
+//void namaste(){
+//	printf("Namaste\n");
+//}
+//void bonjour(){
+//	printf("Bonjour\n");
+//}
+
+////527
+//int sum(int a,int b){
+//	printf("the sum of %d and %d is : %d",a,b,a+b);
+//}
+
+////535
+//int table(int n){
+//	int i;
+//	for(i=1;i<=10;i++){
+//		printf("%d * %d = %d\n",i,n,i*n);
+//
+//	}
+//}
+
+//541
+int square(int i){
+	int j=pow(i,2);
+	printf("square of %d is %d",i,j);
+//	return j;
 }
 
 int main(){
@@ -479,15 +508,47 @@ int main(){
 //}
 //}printf("%d",count); 
 
-//PRIME PALLINDROME 
-    int n;
-    scanf("%d", &n);
+////PRIME PALLINDROME 
+//    int n;
+//    scanf("%d", &n);
+//
+//    if (isPrime(n) && isPalindrome(n)) {
+//        printf("YES");
+//    }  else {
+//        printf("NO");
+//    }
 
-    if (isPrime(n) && isPalindrome(n)) {
-        printf("YES");
-    }  else {
-        printf("NO");
-    }
+//PRINT BONJOUR FOR FRENCH AND NAMASTE FOR INDIAN USERS...
+//char ch;
+//printf("enter i for Indian user and f for French user : ");
+//scanf("%c",&ch);
+//if(ch=='i'){
+//	namaste();
+//}else if(ch=='f'){
+//	bonjour();
+//}else {
+//	printf("enter valid character...");
+//}
+
+//FIND SUM OF TWO NO. WITH THE HELP OF A FUN...
+//int i,j;
+//printf("enter i : ");
+//scanf("%d",&i);
+//printf("enter j : ");
+//scanf("%d",&j);
+//sum(i,j);
+
+//PRINT TABLE OF A NO. ...
+//int i;
+//printf("enter a no.: ");
+//scanf("%d",&i);
+//table(i);
+
+//PRINT SQUARE OF A NUM...
+int i;
+printf("enter a num: ");
+scanf("%d",&i);
+square(i);
 
     return 0;
 }
