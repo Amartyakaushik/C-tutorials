@@ -23,7 +23,7 @@
 //	return n==rev;
 //}
 
-////515
+////521
 //void namaste(){
 //	printf("Namaste\n");
 //}
@@ -31,12 +31,12 @@
 //	printf("Bonjour\n");
 //}
 
-////527
+////533
 //int sum(int a,int b){
 //	printf("the sum of %d and %d is : %d",a,b,a+b);
 //}
 
-////535
+////541
 //int table(int n){
 //	int i;
 //	for(i=1;i<=10;i++){
@@ -45,12 +45,17 @@
 //	}
 //}
 
-//541
-int square(int i){
-	int j=pow(i,2);
-	printf("square of %d is %d",i,j);
-//	return j;
-}
+////547
+//int square(int i){
+//	int j=pow(i,2);
+//	printf("square of %d is %d",i,j);
+//}
+
+////553
+//int sum(int n);
+
+//571
+int fact(int n);
 
 int main(){
 	// Different types of Variables 
@@ -544,11 +549,43 @@ int main(){
 //scanf("%d",&i);
 //table(i);
 
-//PRINT SQUARE OF A NUM...
-int i;
-printf("enter a num: ");
-scanf("%d",&i);
-square(i);
+////PRINT SQUARE OF A NUM...
+//int i;
+//printf("enter a num: ");
+//scanf("%d",&i);
+//square(i);
 
+//RECURSION
+//PRINT SUM OF N NATURAL NUM...
+//int n;
+//printf("enter the num: ");
+//scanf("%d",&n);
+//sum(n);
+////printf("the sum of first %d natural num's is: ",n,sum(n));
+
+//FACTORIAL
+int i,res;
+printf("enter the num: ");
+scanf("%d",&i);
+res=fact(i);
+printf("%d",fact(i));
     return 0;
+}
+//563
+//int sum(int n){
+//	if (n==1){
+//		 return 1;
+//}
+//	int sumNm1=sum(n-1);
+//	int sumN=sumNm1+n;
+//	printf("%d",sumN);	
+//}
+
+//571
+int fact(int n){
+	if(n==0 || n==1){
+		return 1;
+	}else {
+		return fact(n-1)*n;
+	}
 }
