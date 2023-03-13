@@ -54,8 +54,11 @@
 ////553
 //int sum(int n);
 
-//571
-int fact(int n);
+////571
+//int fact(int n);
+
+//573
+int percentage(int s,int m,int e);
 
 int main(){
 	// Different types of Variables 
@@ -563,15 +566,22 @@ int main(){
 //sum(n);
 ////printf("the sum of first %d natural num's is: ",n,sum(n));
 
-//FACTORIAL
-int i,res;
-printf("enter the num: ");
-scanf("%d",&i);
-res=fact(i);
-printf("%d",fact(i));
+////FACTORIAL
+//int i,res;
+//printf("enter the num: ");
+//scanf("%d",&i);
+//res=fact(i);
+//printf("%d",fact(i));
+
+//FIND % OF MARKS OBTAINED...
+int sci,maths,eng;
+printf("enter your marks one by one...");
+scanf("%d \t%d\t %d\n",&sci,&maths,&eng);
+int per=percentage(sci,maths,eng);
+printf("Your over all % is %d\n",per);
     return 0;
 }
-//563
+////563
 //int sum(int n){
 //	if (n==1){
 //		 return 1;
@@ -581,11 +591,18 @@ printf("%d",fact(i));
 //	printf("%d",sumN);	
 //}
 
-//571
-int fact(int n){
-	if(n==0 || n==1){
-		return 1;
-	}else {
-		return fact(n-1)*n;
-	}
+////571
+//int fact(int n){
+//	if(n==0 || n==1){
+//		return 1;
+//	}else {
+//		return fact(n-1)*n;
+//	}
+//}
+
+//573
+int percentage(int s,int m,int e){
+	int per=(s+m+e)/3;
+	printf("%d",per);
+//	return per;
 }
