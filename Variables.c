@@ -601,8 +601,10 @@ printf("Your over all % is %d\n",per);
 //}
 
 //573
-int percentage(int s,int m,int e){
-	int per=(s+m+e)/3;
-	printf("%d",per);
-//	return per;
-}
+
+//int percentage(int s,int m,int e){
+//	int per=(s+m+e)/3;
+//	printf("%d",per);
+////	return per;
+//}
+
