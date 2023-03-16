@@ -604,18 +604,42 @@ int main(){
 //show();
 //printf("HELLO");
 
-int n=11;
-printf("%d",f(n));
+//int n=11;
+//printf("%d",f(n));
 
+
+//int i=0;
+//while(i<3)
+//	i++;
+//	printf("in while loop \n");
+
+//int x=10;
+//static int y=x;
+//if(x==y){
+//printf("equal");
+//}
+//else if(x>y){
+//	printf("greater");
+//}
+//else{
+//	printf("Less");
+//}
+
+static int i=5;
+if(--i){
+	main();
+	printf("%d",i);
+}
     return 0;
 }
 
-//607
-int f(int n)
-{
-	if(n>0)
-	return (n+f(n-2));
-}
+////607
+//int f(int n)
+//{
+
+//	if(n>0)
+//	return (n+f(n-2));
+//}
 
 ////563
 //int sum(int n){
