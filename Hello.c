@@ -1268,19 +1268,20 @@ int main(){
 //printf("\n the root1 is %d",root1);
 //printf("\n the root2 is %d",root2);
 
-int a=1;
-printf("%d %d %d %d %d \n",a++,a++,a++,a++,a++);
-a=1;
-printf("%d %d %d %d %d \n",a++,a++,a++,++a,a++);
-a=1;
-printf("%d %d %d %d %d \n",a++,a++,++a,++a,a++);
-a=1;
-printf("%d %d %d %d %d \n",a++,++a,++a,++a,a++);
+//int a=1;
+//printf("%d %d %d %d %d \n",a++,a++,a++,a++,a++);
+//a=1;
+//printf("%d %d %d %d %d \n",a++,a++,a++,++a,a++);
+//a=1;
+//printf("%d %d %d %d %d \n",a++,a++,++a,++a,a++);
+//a=1;
+//printf("%d %d %d %d %d \n",a++,++a,++a,++a,a++);
 
 //int d;
 //d=pow(3,2);
 //printf("%d",d);
 
+//nothing
 
     return 0;
 }
@@ -1295,4 +1296,3 @@ printf("%d %d %d %d %d \n",a++,++a,++a,++a,a++);
 //	int c;
 //	c=
 //}
-
