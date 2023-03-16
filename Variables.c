@@ -57,8 +57,17 @@
 ////571
 //int fact(int n);
 
-//573
-int percentage(int s,int m,int e);
+////573
+//int percentage(int s,int m,int e);
+
+////604
+//void show(){
+//	printf("World");
+//	main();
+//}
+
+//608
+int f(int n);
 
 int main(){
 	// Different types of Variables 
@@ -574,13 +583,40 @@ int main(){
 //printf("%d",fact(i));
 
 //FIND % OF MARKS OBTAINED...
-int sci,maths,eng;
-printf("enter your marks one by one...");
-scanf("%d \t%d\t %d\n",&sci,&maths,&eng);
-int per=percentage(sci,maths,eng);
-printf("Your over all % is %d\n",per);
+//int sci,maths,eng;
+//printf("enter your marks one by one...");
+//scanf("%d \t%d\t %d\n",&sci,&maths,&eng);
+//int per=percentage(sci,maths,eng);
+//printf("Your over all % is %d\n",per);
+
+//MARCH 16
+//int x=10,y=0;
+//float z=20;
+////printf("%d",x!=y);
+////printf("%d",~y);
+//int k=sizeof(z);
+//printf("%d",k);
+
+//int i;
+//for(i=0;i!=50;i+=2)
+//printf("hello\n");
+
+//show();
+//printf("HELLO");
+
+int n=11;
+printf("%d",f(n));
+
     return 0;
 }
+
+//607
+int f(int n)
+{
+	if(n>0)
+	return (n+f(n-2));
+}
+
 ////563
 //int sum(int n){
 //	if (n==1){
