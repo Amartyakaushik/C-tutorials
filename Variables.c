@@ -625,11 +625,36 @@ int main(){
 //	printf("Less");
 //}
 
-static int i=5;
-if(--i){
-	main();
-	printf("%d",i);
-}
+//static int i=5;
+//if(--i){
+//	main();
+//	printf("%d",i);
+//}
+
+//17TH MARCH
+//int i=1,j=6;
+//int k=i++;
+//int m=++i + k;
+//printf("%d %d %d",i,j,k);
+
+//int i=1,j=6;
+//int k=j||i;
+//printf("%d\n",k);
+
+//int a=10,i;
+//for(i=1;i<10;i++){
+//	printf("%d",i);
+//	if(i>=8)
+//	continue;
+//	printf("%d",i);
+//}
+
+int a=5,c;
+if(a==6)++a;
+if(a==5)a--;
+else a+=2;
+prinf("%d",a);
+
     return 0;
 }
 
