@@ -1282,6 +1282,82 @@ int main(){
 //printf("%d",d);
 
 //nothing
+////MARCH 23RD
+//int a[100],i,n;
+//printf("enter the array size: ");
+//scanf("%d",&n);
+//for (i=0;i<n;i++)
+//{
+//	printf("enter all %d elements",n);
+//	scanf("%d",&a[i]);
+//}
+//for(i=0;i<n;i++)
+//{
+//	printf("%d\n",a[i]);
+//}
+
+//int a[5]={};
+//printf("%d",a[1]);
+
+//// SUM OF ELEMENTS OF ARRAY...
+//  int a[100],n,sum=0,i;
+//  printf("enter number of elements : ");
+//  scanf("%d",&n);
+//  printf("\nEnter array elements: ");
+//  for(i=0;i<n;i++)
+//  {
+//  	scanf("%d",&a[i]);
+//  }
+//  for(i=0;i<n;i++){
+//  	sum=sum+a[i];
+//  }
+//  printf("\n  sum of array elements is %d",sum);
+  
+//TO FIND OUT THE MIN AND MAX ELEMENT FROM THE ARRAY ...
+//int a[100],i,n,min,max;
+//printf("enter the no of elements: ");
+//scanf("%d",&n);
+//for(i=0;i<n;i++)
+//{
+//	printf("enter the elements: ");
+//	scanf("%d",&a[i]);
+//	min=a[0];
+//	max=a[0];
+//}
+//for(i=1;i<n;i++)
+//{
+//	if(a[i]<min)
+//{
+//	min=a[i];
+//}
+//}printf("%d is min",min);
+
+//int a[5],i;
+//for(i=0;i<5;i++){
+//	a[i]=i;
+//}
+//printf("%d",a[2]);
+
+//int a[5]={1,2,3,4,5};
+//int b[5];
+//int i;
+//for(i=0;i<5;i++)
+//{
+//	b[i]=++a[i];
+//}
+//printf("%d",b[0]+b[3]);
+
+
+//int a[5]={5,1,15,20,25};
+//int i=2;
+//printf("%d",a[++i]);
+
+int a[5]={5,1,15,20,25};
+int i,j,m;
+i=++a[1];
+j=a[1]++;
+m=a[i++];
+printf("%d%d%d",i,j,m);
 
     return 0;
 }
