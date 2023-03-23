@@ -66,8 +66,8 @@
 //	main();
 //}
 
-//608
-int f(int n);
+////608
+//int f(int n);
 
 int main(){
 	// Different types of Variables 
@@ -649,12 +649,24 @@ int main(){
 //	printf("%d",i);
 //}
 
-int a=5,c;
-if(a==6)++a;
-if(a==5)a--;
-else a+=2;
-prinf("%d",a);
+//int a=5,c;
+//if(a==6)++a;
+//if(a==5)a--;
+//else a+=2;
+//prinf("%d",a);
 
+
+int a[100],i,n;
+printf("enter the array size: ");
+scanf("%d",&n);
+for (i=0;i<n;i++)
+{
+	scanf("%d",&a[i]);
+}
+for(i=0;i<n;i++)
+{
+	printf("%d",a[i]);
+}
     return 0;
 }
 
