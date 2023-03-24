@@ -655,18 +655,41 @@ int main(){
 //else a+=2;
 //prinf("%d",a);
 
+//int a[100],i,n;
+//printf("enter the array size: ");
+//scanf("%d",&n);
+//for (i=0;i<n;i++)
+//{
+//	scanf("%d",&a[i]);
+//}
+//for(i=0;i<n;i++)
+//{
+//	printf("%d",a[i]);
+//}
 
-int a[100],i,n;
-printf("enter the array size: ");
-scanf("%d",&n);
-for (i=0;i<n;i++)
+int a[10][10],sum=0;
+int i,j,m,n;
+printf("enter number of rows and columns: ");
+scanf("%d %d %d",&m,&n);
+printf("Enter Elements: ");
+for(i=0;i<m;i++)
 {
-	scanf("%d",&a[i]);
+	for(j=0;j<n;j++)
+	{
+		scanf("%d",a[i][j]);
+	}
 }
-for(i=0;i<n;i++)
+for(i=0;i<m;i++)
 {
-	printf("%d",a[i]);
+	for(j=0;j<n;j++)
+	{
+		if(i==j)
+		{
+			sum=sum+a[i][j];
+		}
+	}
 }
+printf("sum of diagonal elements= %d",sum);
     return 0;
 }
 
