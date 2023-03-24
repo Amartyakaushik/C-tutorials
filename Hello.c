@@ -1352,13 +1352,92 @@ int main(){
 //int i=2;
 //printf("%d",a[++i]);
 
-int a[5]={5,1,15,20,25};
-int i,j,m;
-i=++a[1];
-j=a[1]++;
-m=a[i++];
-printf("%d%d%d",i,j,m);
+//int a[5]={5,1,15,20,25};
+//int i,j,m;
+//i=++a[1];
+//j=a[1]++;
+//m=a[i++];
+//printf("%d%d%d",i,j,m);
 
+//MARCH 24TH 
+//int a[3][3],i,j;
+////for loop for the row...
+//for(i=0;i<3;i++)
+//{
+//	// for loop for the column...
+//	for(j=0;j<3;j++)
+//	{
+//		printf("enter the value of a[%d] [%d]:\n ",i,j);
+//		scanf("%d %d",&a[i],&a[j]);
+////		printf("%d \n",a[i][j]);
+//	}
+//}
+
+//int a[3][2]={{1,2},{3,4},{5,6}};
+//printf("%d",a[1][1]*a[2][1]);
+
+//int a[2][3]={1,2,3,4,5};
+//int i=0,j=0;
+//for(i=0;i<3;i++)
+//for(j=0;j<3;j++)
+//printf("%d",a[i][j]);
+//DOUBT
+//int a1[2][2];
+//int a2[2][2];
+//int a3[2][2],i=0,j=0;
+//for(i=0;i<3;i++)
+//{
+//	for(j=0;j<3;j++)
+//	{
+//		printf("enter the a1[%d][%d]\n",i,j);
+//		scanf("%d %d",&a1[i][j]);
+//		printf("enter a2[%d][%d]\n",i,j);
+//		scanf("%d %d",&a2[i][j]);
+//		a3[i][j]=a1[i][j]+a2[i][j];
+//		printf("%d\t",a3[i][j]);
+//	}
+//}
+
+//doubt
+//int a[10][10],transpose[10][10],rc,i,j;
+//printf("Enter the rows and columns of matrix: ");
+//scanf("%d %d %d",&r,&c);
+////storing elements of the matrix 
+//printf("\n Enter elements of matrix;\n");
+//for(i=0;i<r;i++)
+//{
+//	for(j=0;j<c;j++)
+//	{
+//		printf("Enter element a&d &d: ",i,j);
+//		scanf("%d",&a[i][j]);
+//	}
+//}
+////Displaying the matrix a[][]
+//printf("")
+
+int a[10][10],sum=0;
+int i,j,m,n;
+printf("enter number of rows and columns: ");
+scanf("%d %d ",&m,&n);
+printf("Enter Elements: ");
+for(i=0;i<m;i++)
+{
+	for(j=0;j<n;j++)
+	{
+		scanf("%d",&a[i][j]);
+	}
+}
+for(i=0;i<m;i++)
+{
+	for(j=0;j<n;j++)
+	{
+		if(i==j)
+		{
+			sum=sum+a[i][j];
+		}
+	}
+}
+printf("sum of diagonal elements= %d",sum);
     return 0;
 }
 
