@@ -1415,29 +1415,41 @@ int main(){
 ////Displaying the matrix a[][]
 //printf("")
 
-int a[10][10],sum=0;
-int i,j,m,n;
-printf("enter number of rows and columns: ");
-scanf("%d %d ",&m,&n);
-printf("Enter Elements: ");
-for(i=0;i<m;i++)
+//doubt
+//int a[10][10],sum=0;
+//int i,j,m,n;
+//printf("enter number of rows and columns: ");
+//scanf("%d %d ",&m,&n);
+//printf("Enter Elements: ");
+//for(i=0;i<m;i++)
+//{
+//	for(j=0;j<n;j++)
+//	{
+//		scanf("%d",&a[i][j]);
+//	}
+//}
+//for(i=0;i<m;i++)
+//{
+//	for(j=0;j<n;j++)
+//	{
+//		if(i==j)
+//		{
+//			sum=sum+a[i][j];
+//		}
+//	}
+//}
+//printf("sum of diagonal elements= %d",sum);
+
+
+int 
+printf("Enter rows and columns for first matrix: ");
+scanf("%d %d",&r1,&c1);
+printf("enter rows and columns for second matrix: ");
+scanf("%d %d",&r2,&c2);
+while(c1!=r2)
 {
-	for(j=0;j<n;j++)
-	{
-		scanf("%d",&a[i][j]);
-	}
+	printf("error! no. of columns of first matrix not equal to no. of row of second\n\n");
 }
-for(i=0;i<m;i++)
-{
-	for(j=0;j<n;j++)
-	{
-		if(i==j)
-		{
-			sum=sum+a[i][j];
-		}
-	}
-}
-printf("sum of diagonal elements= %d",sum);
     return 0;
 }
 
