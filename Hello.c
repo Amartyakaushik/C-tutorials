@@ -61,6 +61,13 @@
 //	printf("%d",n);
 //}
 
+//1457
+//void reference(int[],int);
+
+//1477
+void value(int u);
+
+
 int main(){
 	// Different types of Variables 
 	
@@ -1441,17 +1448,250 @@ int main(){
 //printf("sum of diagonal elements= %d",sum);
 
 
-int 
-printf("Enter rows and columns for first matrix: ");
-scanf("%d %d",&r1,&c1);
-printf("enter rows and columns for second matrix: ");
-scanf("%d %d",&r2,&c2);
-while(c1!=r2)
+//int 
+//printf("Enter rows and columns for first matrix: ");
+//scanf("%d %d",&r1,&c1);
+//printf("enter rows and columns for second matrix: ");
+//scanf("%d %d",&r2,&c2);
+//while(c1!=r2)
+//{
+//	printf("error! no. of columns of first matrix not equal to no. of row of second\n\n");
+//}
+
+////30th MARCH
+//int arr[100],n;
+//int i;
+//printf("\nenter n: ");
+//scanf("%d",&n);
+//printf("Enter array elements: ");
+//for(i=0;i<n;i++)
+//{
+//	scanf("%d",&arr[i]);
+//}
+//printf("Elements by reference: ");
+//reference(arr,n);
+//for(i=0;i<n;i++)
+//{
+//	printf("\n%d ",arr[i]);
+//}
+
+//int arr[100],n;
+//int i;
+//printf("\n enter n: ");
+//scanf("%d",&n);
+//printf("enter the array elements: ");
+//for(i=0;i<n;i++)
+//{
+//	scanf("%d\n",&arr[i]);
+//}
+//	printf("passing elements by value: ");
+//	for(i=0;i<n;i++)
+//	{
+//		value(arr[i]);
+//	}
+//	for(i=0;i<n;i++)
+//	{
+//		printf("\n%d",arr[i]);
+//	}
+	
+	
+//	int a[100],i,n,position,value;
+//	printf("enter no of element: ");
+//	scanf("%d\n",&n);
+//	for(i=0;i<n;i++)
+//	{
+//		scanf("\n%d",&a[i]);
+//	}
+//	printf("enter the position where data has to be stored...");
+//	scanf("%d\n",&position);
+//	printf("Enter the value of inserted data");
+//	scanf("%d\n",&value);
+//	a[position-1]=value;
+//	for(i=n-1;i<=position;i--)
+//	{
+//		a[i+1]=a[i];
+//	}
+//	for(i=0;i<n;i++)
+//	{
+//			printf("\n%d ",a[i]);
+//	}
+	
+	
+//	int array[100],position,c,n;
+//	printf("Enter number of elements in array\n");
+//	scanf("%d",&n);
+//	printf("Enter %d elements \n",n);
+//	for(c=0;c<n;c++)
+//	{
+//		scanf("%d",&array[c]);
+//	}
+//	printf("Enter the location where you wish to delte an element: \n");
+//	scanf("%d",&position);
+//	for(c=position;c<n;c++)
+//	{
+//		array[c]=array[c+1];
+//	}
+//	printf("resultant array is \n");
+//	for(c=0;c<n-1;c++)
+//	{
+//		printf("%d\n",array[c]);
+//	}
+	
+//	int a[100];
+//	int hold,i,n,j;
+//	printf("Enter value of n: ");
+//	scanf("%d",&n);
+//	printf("\n Enter elemenrs: ");
+//	for(i=0;i<n;i++)
+//	{
+//		scanf("%d",&a[i]);
+//	}
+//	printf("Data items in original order");
+//	for(i=0;i<n;i++)
+//	{
+//		printf("\n%d",a[i]);
+//	}
+//	for(i=0;i<n-1;i++)
+//	{
+//		for(j=0;j<n-1;j++)
+//		{
+//			if (a[j]>a[j+1])
+//			{
+//				hold=a[j];
+//				a[j]=a[j=1];
+//				a[j+1]=hold;
+//			}
+//		}
+//	}
+//	printf("\nData items in ascending order");
+//	for(i=0;i<n;i++)
+//	{
+//		printf("\n%d",a[i]);
+//		}	
+	
+	//31st march
+//   int a[100];
+//   int hold,i,j,n;
+//   printf("\n Enter value of n:");
+//   scanf("%d",&n);
+//   printf("\n Enter elements:");
+//   for(i=0;i<n;i++)
+//   {
+//   	scanf("%d",&a[i]);
+//   }
+//   printf( "Data items in original order" );
+//   for (i=0;i<n;i++ )
+//   {
+//      printf("%d ",a[i]);//Elements will come with space
+//   } // end for
+//   // bubble sort
+//// loop to control number of passes(no. of passes are always n-1)
+//   for (i=0;i<n-1;i++)
+//   {
+//    // loop to control number of comparisons per pass(There is one comparison less)
+// 
+//	  for (j=0;j<n-i-1;j++)
+//	   {
+//         // compare adjacent elements and swap them if first
+//         // element is greater than second element
+//         if (a[j]>a[j+1])
+//		 {
+//            hold=a[j];
+//            a[j]=a[j+1];
+//            a[j+1]=hold;
+//         } // end if
+//      } // end inner for
+//   } // end outer for
+//   printf( "\nData items in ascending order" );
+//   for (i=0;i<n;i++)
+//   {
+//      printf("%d ",a[i]);
+//   } // end for
+
+////Linear search
+//int a[50];
+//int i,loc=-1,key,n;
+//printf("\nEnter the value of n: ");
+//scanf("%d",&n);
+//printf("\nEnter the elements: ");
+//for(i=0;i<n;i++)
+//{
+//	scanf("%d",&a[i]);
+//}
+//printf("Enter integer value to search in array: ");
+//scanf("%d",&key);
+////attempt to locate searchkey in array a
+//for(i=0;i<n;i++)
+//{
+//	if(a[i]==key)
+//	{
+//	loc=i;//location of key is stored
+//	break;
+//}
+//}
+//if(loc!=-1)
+//{
+//	printf("Element found at %d ",loc);
+//}
+//else
+//{
+//	printf("Element not found");
+//}
+
+//Bilenear search
+int a[50],n,loc=-1,key,beg,last,mid,i;
+printf("\n Enter number of array elements: ");
+scanf("%d",&n);
+printf("\n Enter array elements: ");
+for(i=0;i<n;i++)
 {
-	printf("error! no. of columns of first matrix not equal to no. of row of second\n\n");
+	scanf("%d",&a[i]);
 }
-    return 0;
+beg=0;
+last=n-1;
+printf("Enter integer value to search in sorted array: ");
+scanf("%d",&key);
+while(beg<=last)//loop will run until unless only one elements is not remaining
+{
+	mid=(beg+last);//determine index of middle element
+	if(a[mid]==key)
+	{
+		loc=mid;
+		break;
+	}
+	else if(a[mid]>key)//middle element is greatest than key
+	{
+		last=mid-1;//if middle element is greater than key,we need to search left subarray
+	}
+	else if(a[mid]<key)//middle element is less than key 
+	{
+		beg=mid+1;//middle element is less than key , we need to search right subarray
+	}
 }
+if (loc!=-1)
+{
+	printf("element found at %d",loc+1);//location is exact position,not index
+}
+else
+{
+	printf("element not found");
+}
+	return 0;
+}
+
+////1478
+//void value(int u){
+//	printf("%d",++u);
+//}
+
+////1457
+//void reference(int arr[],int size)
+//{
+//	int i;
+//	for(i=0;i<size;i++){
+//		printf("%d",arr[i]++);
+//	}
+//}
 
 //void f1(int a,int b)
 //{
