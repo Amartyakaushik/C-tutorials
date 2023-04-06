@@ -65,8 +65,28 @@
 //void reference(int[],int);
 
 //1477
-void value(int u);
+//void value(int u);
 
+//1680
+//struct car{
+//	char *name;
+//	int seats; 
+//	float price;
+//};
+
+////1692
+//struct car{
+//	char name[50];
+//	int seats;
+//	float price;
+//};
+
+//1710
+struct car{
+	char name[50];
+	int seats;
+	float price;
+};
 
 int main(){
 	// Different types of Variables 
@@ -1639,42 +1659,71 @@ int main(){
 //}
 
 //Bilenear search
-int a[50],n,loc=-1,key,beg,last,mid,i;
-printf("\n Enter number of array elements: ");
-scanf("%d",&n);
-printf("\n Enter array elements: ");
-for(i=0;i<n;i++)
-{
-	scanf("%d",&a[i]);
+//int a[50],n,loc=-1,key,beg,last,mid,i;
+//printf("\n Enter number of array elements: ");
+//scanf("%d",&n);
+//printf("\n Enter array elements: ");
+//for(i=0;i<n;i++)
+//{
+//	scanf("%d",&a[i]);
+//}
+//beg=0;
+//last=n-1;
+//printf("Enter integer value to search in sorted array: ");
+//scanf("%d",&key);
+//while(beg<=last)//loop will run until unless only one elements is not remaining
+//{
+//	mid=(beg+last);//determine index of middle element
+//	if(a[mid]==key)
+//	{
+//		loc=mid;
+//		break;
+//	}
+//	else if(a[mid]>key)//middle element is greatest than key
+//	{
+//		last=mid-1;//if middle element is greater than key,we need to search left subarray
+//	}
+//	else if(a[mid]<key)//middle element is less than key 
+//	{
+//		beg=mid+1;//middle element is less than key , we need to search right subarray
+//	}
+//}
+//if (loc!=-1)
+//{
+//	printf("element found at %d",loc+1);//location is exact position,not index
+//}
+//else
+//{
+//	printf("element not found");
+//}
+
+//struct car mycar;//define struct variable
+//mycar.name="Renault";
+//mycar.price=500000;
+//mycar.seats=2;
+//printf("%s %f %d \n",mycar.name,mycar.price,mycar.seats);
+
+//struct car mycar;
+//printf("Enter name of car: \n");
+//gets(mycar.name);
+//printf("Enter number of seats in car: \n");
+//scanf("%d",&mycar.seats);
+//printf("Enter price of car: \n");
+//scanf("%f",&mycar.price);
+//printf("\n Particulaars of car are: \n");
+//printf("Car name:%s",mycar.name);
+//printf("\nNumber of seats: %d",mycar.seats);
+//printf("\nPrice:%f",mycar.price);
+
+int i;
+struct car mycar[100];
+for(i=0;i<100;i++){
+	printf("\n \n  Enter data for car[%d]:\n",i);
+	scanf("%s %d %f",&mycar[i].name,&mycar[i].seats,&mycar[i].price);
 }
-beg=0;
-last=n-1;
-printf("Enter integer value to search in sorted array: ");
-scanf("%d",&key);
-while(beg<=last)//loop will run until unless only one elements is not remaining
+for(i=0;i<100;i++)
 {
-	mid=(beg+last);//determine index of middle element
-	if(a[mid]==key)
-	{
-		loc=mid;
-		break;
-	}
-	else if(a[mid]>key)//middle element is greatest than key
-	{
-		last=mid-1;//if middle element is greater than key,we need to search left subarray
-	}
-	else if(a[mid]<key)//middle element is less than key 
-	{
-		beg=mid+1;//middle element is less than key , we need to search right subarray
-	}
-}
-if (loc!=-1)
-{
-	printf("element found at %d",loc+1);//location is exact position,not index
-}
-else
-{
-	printf("element not found");
+	printf("\n Data about your car[%d] is: %s %d %f",i,mycar[i].name,mycar[i].seats,mycar[i].price);
 }
 	return 0;
 }
