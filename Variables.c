@@ -69,6 +69,9 @@
 ////608
 //int f(int n);
 
+//697
+int fib(int n);
+
 int main(){
 	// Different types of Variables 
 //	int number=25;  // Integer type 
@@ -667,29 +670,47 @@ int main(){
 //	printf("%d",a[i]);
 //}
 
-int a[10][10],sum=0;
-int i,j,m,n;
-printf("enter number of rows and columns: ");
-scanf("%d %d %d",&m,&n);
-printf("Enter Elements: ");
-for(i=0;i<m;i++)
+//int a[10][10],sum=0;
+//int i,j,m,n;
+//printf("enter number of rows and columns: ");
+//scanf("%d %d %d",&m,&n);
+//printf("Enter Elements: ");
+//for(i=0;i<m;i++)
+//{
+//	for(j=0;j<n;j++)
+//	{
+//		scanf("%d",a[i][j]);
+//	}
+//}
+//for(i=0;i<m;i++)
+//{
+//	for(j=0;j<n;j++)
+//	{
+//		if(i==j)
+//		{
+//			sum=sum+a[i][j];
+//		}
+//	}
+//}
+//printf("sum of diagonal elements= %d",sum);
+
+//int num;
+//printf("enter the value of num: ");
+//scanf("%d",&num);
+//printf("The fibonacci series of %d is %d",num,fib(num));
+
+//WRITE A FUNCTION TO FIND SUM OF DIGITS OF A NUMBER.
+int n,sum=0,i;
+printf("Enter the value of n: \n");
+scanf("%d",&n);
+char num=(str(n));
+int len_num=len(num);
+for(i=0;i<len_num;i++)
 {
-	for(j=0;j<n;j++)
-	{
-		scanf("%d",a[i][j]);
-	}
+	sum+=num;
 }
-for(i=0;i<m;i++)
-{
-	for(j=0;j<n;j++)
-	{
-		if(i==j)
-		{
-			sum=sum+a[i][j];
-		}
-	}
-}
-printf("sum of diagonal elements= %d",sum);
+printf("%d",sum);
+ 
     return 0;
 }
 
@@ -721,10 +742,31 @@ printf("sum of diagonal elements= %d",sum);
 //}
 
 //573
-
 //int percentage(int s,int m,int e){
 //	int per=(s+m+e)/3;
 //	printf("%d",per);
 ////	return per;
+//}
+
+////697
+//int fib(int n)
+//{
+//	if(n<0)
+//	{
+//		printf("enter correct input");
+//	}
+//	else if (n==0)
+//	{
+//		return 0;
+//	}
+//	else if(n==1)
+//	{
+//		return 1;
+//	}
+//	else 
+//	{
+//		int fibN=fib(n-1)+fib(n-2);
+//		return fibN;
+//	}
 //}
 
