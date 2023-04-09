@@ -69,8 +69,11 @@
 ////608
 //int f(int n);
 
-//697
-int fib(int n);
+////697
+//int fib(int n);
+
+//719
+int _sqrt(int num);
 
 int main(){
 	// Different types of Variables 
@@ -699,18 +702,29 @@ int main(){
 //scanf("%d",&num);
 //printf("The fibonacci series of %d is %d",num,fib(num));
 
-//WRITE A FUNCTION TO FIND SUM OF DIGITS OF A NUMBER.
-int n,sum=0,i;
-printf("Enter the value of n: \n");
-scanf("%d",&n);
-char num=(str(n));
-int len_num=len(num);
-for(i=0;i<len_num;i++)
-{
-	sum+=num;
-}
-printf("%d",sum);
+////WRITE A FUNCTION TO FIND SUM OF DIGITS OF A NUMBER.
+//int num,sum=0,i;
+//printf("enter the value of num: ");
+//scanf("%d",&num);
+//int temp=num;
+//while (temp!=0)
+//{
+//	int digit=temp%10;
+//	sum+=digit;
+//	temp=temp/10;
+//}
+//printf("%d",sum);
  
+//WRITE A FUNCTION TO FIND SQUARE ROOT OF A NUMBER...
+int num;
+printf("Enter the value of num: ");
+scanf("%d",&num);
+printf("%d",_sqrt(num));
+
+//int num=4;
+//int sqr=pow(num,0.5);
+//printf("%d",sqr);
+
     return 0;
 }
 
@@ -770,3 +784,26 @@ printf("%d",sum);
 //	}
 //}
 
+//719
+int _sqrt(int num)
+{
+	int n=pow(num,0.5);
+	if((n*n)==num)
+	{
+		printf("The square root of is %d.\n",n);
+	}else {
+		printf("Not a perfect square.");
+	}
+}
+//int _sqrt(int num)
+//{
+//	int n=pow(num,0.5);
+//	printf("%d \n",n);
+//	if((n*n)==(num))
+//	{
+////		if((n*n)==(num))
+//		printf("The square root of %d is %d",num,n);
+//	}else {
+//		printf("Not a perfect square...");
+//	}
+//}
