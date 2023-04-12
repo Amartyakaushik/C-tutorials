@@ -716,14 +716,49 @@ int main(){
 //printf("%d",sum);
  
 //WRITE A FUNCTION TO FIND SQUARE ROOT OF A NUMBER...
-int num;
-printf("Enter the value of num: ");
-scanf("%d",&num);
-printf("%d",_sqrt(num));
+//int num;
+//printf("Enter the value of num: ");
+//scanf("%d",&num);
+//printf("%d",_sqrt(num));
 
 //int num=4;
 //int sqr=pow(num,0.5);
 //printf("%d",sqr);
+
+//APRIL 12th
+//int age=22;
+//int *ptr=&age;
+////print address
+////printf("%p",&age);
+////printf("%u\n",&age);
+////printf("%u\n",ptr);
+////printf("%u\n",&ptr);
+////PRINT VALUE
+//printf("%d\n",age);
+//printf("%d\n",*ptr);
+//printf("%d\n",*(&age));
+
+//int *ptr;
+//int x;
+//ptr=&x;
+//*ptr=0;
+//printf("%d\n",x);
+//printf("%d\n",*ptr);
+//
+//*ptr+=5;
+//printf("x= %d\n",x);
+//printf("*ptr=%d\n",*ptr);
+//
+//(*ptr)++;
+//printf("x=%d\n",x);
+//printf("*ptr=%d\n",*ptr);
+
+//POINTER TO POINTER
+int i=5;
+int *ptr=&i;
+int **pptr=&ptr;
+
+printf("%d",**pptr);
 
     return 0;
 }
@@ -785,16 +820,16 @@ printf("%d",_sqrt(num));
 //}
 
 //719
-int _sqrt(int num)
-{
-	int n=pow(num,0.5);
-	if((n*n)==num)
-	{
-		printf("The square root of is %d.\n",n);
-	}else {
-		printf("Not a perfect square.");
-	}
-}
+//int _sqrt(int num)
+//{
+//	int n=pow(num,0.5);
+//	if((n*n)==num)
+//	{
+//		printf("The square root of is %d.\n",n);
+//	}else {
+//		printf("Not a perfect square.");
+//	}
+//}
 //int _sqrt(int num)
 //{
 //	int n=pow(num,0.5);
