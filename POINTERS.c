@@ -75,21 +75,91 @@
 //}
 
 //WRITE A PROGRAM TO ENTER PRICE OF 3 ITEMS AND PRINT THEIR FINAL COST WITH GST...
-int main()
-{
-float items[3];
-printf("Price of 1st item: ");
-scanf("%f",&items[0]);
+//int main()
+//{
+//float items[3];
+//printf("Price of 1st item: ");
+//scanf("%f",&items[0]);
+//
+//printf("Price of 2nd item: ");
+//scanf("%f",&items[1]);
+//
+//printf("Price of 3rd item: ");
+//scanf("%f",&items[2]);
+//
+//printf("Total price of item1 is :%f",items[0]+(0.18*(items[0])));
+//printf("Total price of item2 is :%f",items[1]+(0.18*(items[1])));
+//printf("Total price of item3 is :%f",items[2]+(0.18*(items[2])));	
+//	return 0;
+//}
 
-printf("Price of 2nd item: ");
-scanf("%f",&items[1]);
+////REVERSE OF ARRAY
+//void reverse(int arr[],int n);
+//void printarr(int arr[],int n);
+//int main(){
+//int arr[]={2,44,12,234,34};
+//reverse(arr,5);
+//printarr(arr,5);
+//	return 0;
+//}
+//void reverse(int arr[],int n){
+//	int i;
+//	for(i=0;i<n/2;i++){
+//		int firstval=arr[i];
+//	    int secval=arr[n-i-1];
+//		arr[i]=secval;
+//		arr[n-i-1]=firstval;
+//	}
+//}
+//void printarr(int arr[],int n){
+//	int i;
+//	for(i=0;i<n;i++){
+//		printf("%d\t",arr[i]);
+//	}
+//}
 
-printf("Price of 3rd item: ");
-scanf("%f",&items[2]);
 
-printf("Total price of item1 is :%f",items[0]+(0.18*(items[0])));
-printf("Total price of item2 is :%f",items[1]+(0.18*(items[1])));
-printf("Total price of item3 is :%f",items[2]+(0.18*(items[2])));
+////fabonacii series with the help of array
+//int main(){
+//	int n;
+//	int fib[n];
+//	printf("enter  the no. of seris: ");
+//	scanf("%d",&n);
+//	int i;
+////	for(i=0;i<n;i++){
+////		printf("enter the values of fib[{}]: ",i);
+////		scanf("%d\t",&fib[i]);
+////	}
+//	fib[0]=0;
+//	fib[1]=1;
+//	for (i=2;i<n;i++){
+//		fib[i]=fib[i-1]+fib[i-2];
+//		printf("%d\t",fib[i]);
+//	}
+//	printf("\n");
+//	return 0;
+//}
+
+void storetable(int arr[][10],int n,int m,int number);
+int main(){
+	int table[2][10];
+	storetable(table,0,10,2);
+	storetable(table,1,10,3);
 	
+	int i;
+	for(i=0;i<10;i++){
+		printf("%d\t",table[0][i]);
+	}
+	printf("\n");
+	for(i=0;i<10;i++){
+		
+		printf("%d\t",table[1][i]);
+	}
 	return 0;
+}
+void storetable(int arr[][10],int n,int m,int number){
+	int i;
+	for(i=0;i<m;i++){
+		arr[n][i]=number*(i+1);
+	}
 }
