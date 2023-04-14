@@ -140,26 +140,147 @@
 //	return 0;
 //}
 
-void storetable(int arr[][10],int n,int m,int number);
+//2D ARRAY (TABLE OF 2 and 3)...
+//void storetable(int arr[][10],int n,int m,int number);
+//int main(){
+//	int table[2][10];
+//	storetable(table,0,10,2);
+//	storetable(table,1,10,3);
+//	
+//	int i;
+//	for(i=0;i<10;i++){
+//		printf("%d\t",table[0][i]);
+//	}
+//	printf("\n");
+//	for(i=0;i<10;i++){
+//		
+//		printf("%d\t",table[1][i]);
+//	}
+//	return 0;
+//}
+//void storetable(int arr[][10],int n,int m,int number){
+//	int i;
+//	for(i=0;i<m;i++){
+//		arr[n][i]=number*(i+1);
+//	}
+//}
+
+//int main(){
+//	//linear search
+//int num[50],loc=-1,n,i,key;
+//printf("enter value of n: ");
+//scanf("%d",&n);
+//for(i=0;i<n;i++){
+//	printf("enter the values of num: ");
+//	scanf("%d",&num[i]);
+//}
+//printf("enter the num uh want to search: ");
+//scanf("%d",&key);
+//for(i=0;i<n;i++){
+//	if(num[i]==key);
+//	loc=i;
+//}
+//if(loc!=-1){
+//	printf("the key value is found at %d",loc);
+//}else{
+//	printf("key value not found...");
+//}
+//	return 0;
+//}
+
+////BILENEATR SEARCH
+//int main(){
+//	int num[50],i,n,loc=-1,key,beg,mid,last;
+//printf("\nEnter the no. of elements in array: ");
+//scanf("%d",&n);
+//for(i=0;i<n;i++){
+//	printf("enter the values of elements of num: ");
+//	scanf("%d",&num[i]);
+//}
+//printf("Enter the value to search: ");
+//scanf("%d",&key);
+//beg=0;
+//last=n-1;
+//while(beg<=last){
+//	mid=beg+last;
+//	if(num[mid]==key){
+//	loc=mid;
+//}
+//else if(num[mid]>key){
+//	last=mid-1;
+//}
+//else if(num[mid]<key){
+//	beg=mid+1;
+//}
+//}
+//if(loc!=-1){
+//	printf("key value is found at %d",loc);
+//}
+//else{
+//	printf("key value not found...");
+//}
+//	return 0;
+//}
+
+//int main(){
+//
+//int *pnum;
+//char *pch;
+//float *pfnum;
+//double *pdnum;
+//long *plnum;
+//printf("\n Size of integer pointer = %d",sizeof(pnum));	
+//printf("\n Size of character pointer = %d",sizeof(pch));	
+//printf("\n Size of float pointer = %d",sizeof(pfnum));	
+//printf("\n Size of double pointer = %d",sizeof(pdnum));	
+//printf("\n Size of long pointer = %d",sizeof(plnum));	
+//return 0;
+//}
+
+
+//int main()
+//{
+//	double radius,area=0.0;
+//	double *pradius=&radius,*parea=&area;
+//	printf("\nEnter the radius of the circle: ");
+//	scanf("%lf",pradius);
+//	*parea=3.14*(*pradius)*(*pradius);
+//	printf("\nThe area of the circle with radius %.2lf+%.2lf",*pradius,*parea);
+//	return 0;
+//}
+
+//NULL POINTER
+//int main()
+//{
+//	int *ptr=NULL;
+//	int a=10;
+//	printf("%u",ptr);
+//	printf("%d",*ptr);
+//	ptr=&a;
+//	printf("\n%d",*ptr);
+//	return 0;
+//}
+
+////VOID POINTER
+//int main()
+//{
+//	int x=10;
+//	char ch='A';
+//	void *gp;
+//	gp=&x;
+//	printf("\n The generic pointer points to the integer value=%d",*(int*)gp);
+//	gp=&ch;
+//	printf("\n The generic pointer points to the character value=%d",*(char*)gp);
+//	return 0;
+//}
+
+//CONSTANT POINTER
 int main(){
-	int table[2][10];
-	storetable(table,0,10,2);
-	storetable(table,1,10,3);
+	int value1=21;
+	int value=22;
+	int * const ptr= &value;
+	ptr = *value1;
+	printf("%d",*ptr);
 	
-	int i;
-	for(i=0;i<10;i++){
-		printf("%d\t",table[0][i]);
-	}
-	printf("\n");
-	for(i=0;i<10;i++){
-		
-		printf("%d\t",table[1][i]);
-	}
 	return 0;
-}
-void storetable(int arr[][10],int n,int m,int number){
-	int i;
-	for(i=0;i<m;i++){
-		arr[n][i]=number*(i+1);
-	}
 }
